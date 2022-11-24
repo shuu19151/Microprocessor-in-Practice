@@ -1,0 +1,55 @@
+[PROJECT]
+Target=test1_24th_10_2022.hex
+Processor_Text=PIC18F6722
+CCSVersion=5.025
+Compiler=PCH
+[Target Data]
+FileList=test1_24th_10_2022.c
+[test1_24th_10_2022.c]
+Type=4
+[mru-list]
+1=test1_24th_10_2022.c
+
+[Opened Files]
+1=bai_502_lcd_ht_2hang_dich_trai.c
+2=bai_503_lcd_hang0_dich_trai_phai_3btn.c
+3=bai_411_t0_dem_xung.c
+4=test1_24th_10_2022.c
+5=
+
+[ProjectLog]
+Days=4
+D1=25-10-2022
+D1_L=2
+D1_L1=[64780]Stopped Editing.
+TotalEdit=3
+TotalDebug=0
+D1_E=3
+D1_D=0
+D1_L2=[65408]Project Closed.
+D2=26-10-2022
+D2_L=7
+D2_L1=[25950]Project Opened.
+D2_L2=[26095]Started Editing.
+D2_L3=[26706]Stopped Editing.
+D2_L4=[26905]Started Editing.
+D2_L5=[27407]Stopped Editing.
+D2_L6=[28816]Started Editing.
+D2_L7=[29189]Project Closed.
+D3=09-11-2022
+D3_L=5
+D3_L1=[30236]Project Opened.
+D3_L2=[30989]Started Editing.
+D3_L3=[31314]Stopped Editing.
+D3_L4=[31530]Started Editing.
+D3_L5=[31542]Project Closed.
+D4=24-11-2022
+D4_L=2
+D4_L1=[58724]Project Opened.
+D4_L2=[58728]Project Closed.
+[Units]
+Count=1
+1=test1_24th_10_2022 (main)
+
+[fileformats]
+forcecoff=0

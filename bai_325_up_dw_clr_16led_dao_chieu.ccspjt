@@ -1,0 +1,27 @@
+[PROJECT]
+Target=bai_325_up_dw_clr_16led_dao_chieu.hex
+Processor_Text=PIC18F6722
+CCSVersion=5.025
+Compiler=PCH
+[Target Data]
+FileList=bai_325_up_dw_clr_16led_dao_chieu.c
+[bai_325_up_dw_clr_16led_dao_chieu.c]
+Type=4
+[mru-list]
+1=bai_325_up_dw_clr_16led_dao_chieu.c
+
+[Opened Files]
+1=bai_325_up_dw_clr_16led_dao_chieu.c
+2=
+
+[ProjectLog]
+Days=1
+D1=07-09-2022
+D1_L=4
+D1_L1=[38173]Stopped Editing.
+D1_L2=[38237]Started Editing.
+D1_L3=[38699]Stopped Editing.
+D1_L4=[40352]Project Closed.
+[Units]
+Count=1
+1=bai_325_up_dw_clr_16led_dao_chieu (main)

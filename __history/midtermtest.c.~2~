@@ -1,0 +1,21 @@
+#include <tv_kit_vdk_18f6722_all.c>
+
+void green_led(usi16 dl) 
+{
+    xuat_32led_don_4byte(0,0,0,0); delay_ms(dl); 
+    xuat_32led_don_4byte(0,0,0,0xff); delay_ms(dl);
+}
+
+void hienthi_led_7d(){
+    usi8 mssv = 87;
+    giaima_bin_3so_vitri_vn(mssv,5,kx_vn);
+    xuat_8led_7doan();
+}
+
+void main(){
+    set_up_port();
+    while(true){
+        hienthi_led_7d();
+        green_led(1000);
+    }
+}

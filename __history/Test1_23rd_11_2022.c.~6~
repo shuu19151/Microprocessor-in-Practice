@@ -1,0 +1,53 @@
+#include <tv_kit_vdk_18f6722_all.c>
+
+void hienthi_thongtin() 
+{ 
+    lcd_goto_xy(0,0); 
+    lcd_data("TRI - 19151087");
+    lcd_goto_xy(2,0); 
+    lcd_data("TMAX: ");
+    lcd_goto_xy(3,0); 
+    lcd_data("TMIN: ");
+}
+
+void doc_value_lm35(usi8 slan) 
+{ 
+ float lm35a; 
+ lm35a=h601_adc_read(slan,chan_lm35a);
+ lm35a = lm35a/2.046;
+ float_to_ng_2so_tp(lm35a); 
+ lm35a_ng = so_ng;
+ lm35a_tp = so_tp;
+}
+
+void hienthi_lcd(usi8 x,y,int1 ht_lcd,ht_tp){
+    if(lm35a_ngt!=lm35a_ng)
+    {
+        lm35a_ngt=lm35a_ng;
+        lcd_goto_xy(x,y+2);
+        lcd_data(".");
+        if(ht_lcd){
+            lcd_goto_xy(x,y);
+            lcd_data(lm35a_ng/10 + 0x30);
+            lcd_goto_xy(x,y+1);
+            lcd_data(lm35a_ng%10 + 0x30);
+        }
+        if(ht_tp){
+            lcd_goto_xy(x,y+3);
+            lcd_data(lm35a_tp/10 + 0x30);
+            lcd_goto_xy(x,y+4);
+            lcd_data(lm35a_tp%10 + 0x30);
+        }
+    }
+}
+
+void main()
+{
+    set_up_port();
+    lcd_setup();
+    hienthi_thongtin();
+    while(true)
+    {
+      
+    } 
+}

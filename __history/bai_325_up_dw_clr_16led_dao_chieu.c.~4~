@@ -1,0 +1,55 @@
+#include <tv_kit_vdk_18f6722_all.c>
+unsigned int16 y, state = 1;
+void up_bt(){
+   if(input(up) == 0){
+      delay_ms(10);
+      if(input(up) == 1){
+         if(state == 1){
+            y = (y << 1) + 0x01;
+         }
+         if(state == 0){
+            y = (y >> 1) + 0x8000;
+         }
+         xuat_32led_don_2word(y,0);
+         delay_ms(100);
+      }
+   }
+}
+
+void down_bt(){
+   if(input(dw) == 0){
+      delay_ms(10);
+      if(input(dw) == 1){
+         if(state == 1){
+            y = (y >> 1);
+         }
+         if(state == 0){
+            y = (y << 1);
+         }
+         xuat_32led_don_2word(y,0);
+         delay_ms(100);
+      }
+   }
+}
+
+void clr_bt(){
+   if(input(clr) == 0){
+      delay_ms(10);
+      if(input(clr) == 1){
+         y = 0;
+         xuat_32led_don_2word(y,0);
+         state = ~state;
+      }
+   }
+}
+
+void main(){
+   set_up_port();
+   y = 0;
+   xuat_32led_don_1dw(y);
+   while(true){
+      up_bt();
+      down_bt();
+      clr_bt();
+   }
+}

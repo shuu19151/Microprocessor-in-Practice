@@ -1,0 +1,28 @@
+[PROJECT]
+Target=test1_26th_2022.hex
+Processor_Text=PIC18F6722
+CCSVersion=5.025
+Compiler=PCH
+[Target Data]
+FileList=test1_26th_2022.c
+[test1_26th_2022.c]
+Type=4
+[mru-list]
+1=test1_26th_2022.c
+
+[Opened Files]
+1=test1_24th_10_2022.c
+2=test1_26th_2022.c
+3=midtermtest.c
+4=
+
+[ProjectLog]
+Days=1
+D1=26-10-2022
+D1_L=3
+D1_L1=[30862]Stopped Editing.
+D1_L2=[32143]Started Editing.
+D1_L3=[37819]Project Closed.
+[Units]
+Count=1
+1=test1_26th_2022 (main)

@@ -1,0 +1,30 @@
+#include <tv_kit_vdk_18f6722_all.c>
+unsigned int8 t0;
+
+
+void hienthi_lcd(){
+    lcd_goto_xy(0, 17);
+    lcd_data(t0/10 + 0x30);
+    lcd_data(t0%10 + 0x30);
+    
+}
+
+void main() 
+{ 
+    set_up_port();
+    lcd_setup();
+    lcd_goto_xy(0,0);
+    lcd_data("DIEU KHIEN BUZ: ");
+    lcd_goto_xy(1,0);
+    lcd_data("THOI GIAN CAI: ");
+    lcd_goto_xy(2,0);
+    lcd_data("THOI GIAN DEM: ");
+    //setup_timer_3(); 
+    //set_timer3(0); t0_tam = 1; g_han=50;
+    t0 = 42;
+    while(true)
+    { 
+        b411_dem_sp_t0();
+        hienthi_lcd();
+    } 
+}

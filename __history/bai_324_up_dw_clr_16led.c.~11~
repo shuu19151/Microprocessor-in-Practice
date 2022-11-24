@@ -1,0 +1,30 @@
+#include <tv_kit_vdk_18f6722_all.c>
+unsigned int32 y;
+void up_bt(){
+   if(!input(up)){
+      delay_ms(20);
+      if(!input(up)){
+         y = (y << 1) + 1;
+         xuat_32led_don_1dw(y);
+      }
+   }
+}
+
+void down_bt(){
+   
+}
+
+void clr_bt(){
+   
+}
+
+void main(){
+   set_up_port();
+   y = 0;
+   xuat_32led_don_1dw(y);
+   while(true){
+      up_bt();
+      down_bt();
+      clr_bt();
+   }
+}

@@ -1,0 +1,68 @@
+ÀÄmain
+   ÀÄMAIN  0/165  Ram=10
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄ@cinit2  (Inline)  Ram=0
+      ÃÄlcd_init  0/58  Ram=2
+      ³  ÃÄ@delay_ms2  0/20  Ram=1
+      ³  ÃÄlcd_send_nibble  0/46  Ram=1
+      ³  ÃÄ@delay_ms2  0/20  Ram=1
+      ³  ÃÄlcd_send_nibble  0/46  Ram=1
+      ³  ÃÄ@const863  0/8  Ram=0
+      ³  ÀÄlcd_send_byte  0/87  Ram=3
+      ³     ÃÄlcd_read_byte  (Inline)  Ram=3
+      ³     ³  ÃÄlcd_read_nibble  0/49  Ram=2
+      ³     ³  ÀÄlcd_read_nibble  0/49  Ram=2
+      ³     ÃÄlcd_send_nibble  0/46  Ram=1
+      ³     ÀÄlcd_send_nibble  0/46  Ram=1
+      ÃÄlcd_putc  0/36  Ram=1
+      ³  ÃÄlcd_send_byte  0/87  Ram=3
+      ³  ³  ÀÄ*
+      ³  ÃÄ@delay_ms2  0/20  Ram=1
+      ³  ÃÄlcd_gotoxy  0/35  Ram=4
+      ³  ³  ÀÄlcd_send_byte  0/87  Ram=3
+      ³  ³     ÀÄ*
+      ³  ÃÄlcd_send_byte  0/87  Ram=3
+      ³  ³  ÀÄ*
+      ³  ÀÄlcd_send_byte  0/87  Ram=3
+      ³     ÀÄ*
+      ÃÄ@ITOF  0/31  Ram=2
+      ÃÄ@MULFF  0/119  Ram=13
+      ÃÄ@DIVFF  0/204  Ram=14
+      ÃÄ@SFTOI  0/33  Ram=4
+      ÃÄlcd_gotoxy  0/35  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PSTRINGCN7_860  0/87  Ram=5
+      ³  ÃÄlcd_putc  0/36  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÀÄlcd_putc  0/36  Ram=1
+      ³     ÀÄ*
+      ÃÄ@PRINTF_D_860  0/87  Ram=6
+      ³  ÃÄ@DIV88  0/21  Ram=3
+      ³  ÃÄ@DIV88  0/21  Ram=3
+      ³  ÃÄlcd_putc  0/36  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_putc  0/36  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_putc  0/36  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÀÄlcd_putc  0/36  Ram=1
+      ³     ÀÄ*
+      ÃÄlcd_putc  0/36  Ram=1
+      ³  ÀÄ*
+      ÃÄlcd_putc  0/36  Ram=1
+      ³  ÀÄ*
+      ÃÄDelay_va_kiem_tra_phim  0/32  Ram=2
+      ³  ÀÄ@delay_ms2  0/20  Ram=1
+      ÀÄEdit_baodong  0/85  Ram=1
+         ÃÄlcd_putc  0/36  Ram=1
+         ³  ÀÄ*
+         ÃÄlcd_gotoxy  0/35  Ram=4
+         ³  ÀÄ*
+         ÃÄ@PSTRINGCN7_860  0/87  Ram=5
+         ³  ÀÄ*
+         ÃÄ@PRINTF_D_860  0/87  Ram=6
+         ³  ÀÄ*
+         ÃÄlcd_putc  0/36  Ram=1
+         ³  ÀÄ*
+         ÀÄlcd_putc  0/36  Ram=1
+            ÀÄ*

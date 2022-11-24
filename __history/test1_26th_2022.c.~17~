@@ -1,0 +1,39 @@
+#include <tv_kit_vdk_18f6722_all.c>
+usi8 mp8;
+int1 tt_ena_dis = 0;
+
+//!void hienthi_mssv(){
+//!    usi8 mssv = 87;
+//!    giaima_bin_3so_vitri_vn(mssv,0,kx_vn);
+//!    xuat_8led_7doan();
+//!}
+
+void hienthi_led7d(){
+    led_7d[4] = ma7doan[bcd_8led[4]];//hien thi preset
+    led_7d[3] = ma7doan[bcd_8led[3]];
+    giaima_bin_3so_vitri_vn(87,0,kx_vn);
+    xuat_8led_7doan();
+}
+
+void caidat_preset(){
+    mp8 = key_tip229_cdoi_c2(10);
+    if((mp8>0)&&(mp8<17))
+    {
+        mp8 = mp8%16;
+        if((mp8<10)&&(tt_ena_dis != enable))
+        {
+            bcd_8led[4] = bcd_8led[3];
+            bcd_8led[3] = mp8;
+            delay_ms(200);
+        }
+    }
+}
+
+void main(){
+    set_up_port();
+    while(true){
+        //hienthi_mssv();
+        caidat_preset();
+        hienthi_led7d();
+    }
+}

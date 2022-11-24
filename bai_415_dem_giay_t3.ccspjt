@@ -1,0 +1,28 @@
+[PROJECT]
+Target=bai_415_dem_giay_t3.hex
+Processor_Text=PIC18F6722
+CCSVersion=5.025
+Compiler=PCH
+[Target Data]
+FileList=bai_415_dem_giay_t3.c
+[bai_415_dem_giay_t3.c]
+Type=4
+[mru-list]
+1=bai_415_dem_giay_t3.c
+[Units]
+Count=1
+1=bai_415_dem_giay_t3 (main)
+
+[ProjectLog]
+TotalEdit=3
+TotalDebug=0
+Days=1
+D1=12-10-2022
+D1_E=3
+D1_D=0
+D1_L=1
+D1_L1=[27795]Project Closed.
+
+[Opened Files]
+1=bai_415_dem_giay_t3.c
+2=

@@ -1,0 +1,21 @@
+[PROJECT]
+Target=bai_416_dem_phut_giay_t3.hex
+Processor_Text=PIC18F6722
+CCSVersion=5.025
+Compiler=PCH
+[Target Data]
+FileList=bai_416_dem_phut_giay_t3.c
+[bai_416_dem_phut_giay_t3.c]
+Type=4
+[mru-list]
+1=bai_416_dem_phut_giay_t3.c
+[Units]
+Count=1
+1=bai_416_dem_phut_giay_t3 (main)
+
+[ProjectLog]
+Days=1
+D1=12-10-2022
+D1_L=2
+D1_L1=[34010]Started Editing.
+D1_L2=[34060]Project Closed.

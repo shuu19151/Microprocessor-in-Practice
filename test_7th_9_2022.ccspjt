@@ -1,0 +1,49 @@
+[PROJECT]
+Target=test_7th_9_2022.hex
+Processor_Text=PIC18F6722
+CCSVersion=5.025
+Compiler=PCH
+[Target Data]
+FileList=test_7th_9_2022.c
+[test_7th_9_2022.c]
+Type=4
+[mru-list]
+1=test_7th_9_2022.c
+
+[Opened Files]
+1=test_7th_9_2022.c
+2=
+3=bai_310_32led_tong_hop.c
+4=
+
+[ProjectLog]
+Days=3
+D1=07-09-2022
+D1_L=8
+D1_L1=[42007]Stopped Editing.
+TotalEdit=4
+TotalDebug=0
+D1_E=4
+D1_D=0
+D1_L2=[42007]Project Closed.
+D1_L3=[45291]Project Opened.
+D1_L4=[45316]Started Editing.
+D1_L5=[45645]Stopped Editing.
+D1_L6=[45822]Started Editing.
+D1_L7=[46187]Stopped Editing.
+D1_L8=[47047]Project Closed.
+D2=14-09-2022
+D2_L=6
+D2_L1=[28170]Project Opened.
+D2_L2=[28210]Started Editing.
+D2_L3=[28513]Stopped Editing.
+D2_L4=[29361]Project Closed.
+D2_L5=[41292]Project Opened.
+D2_L6=[42171]Project Closed.
+D3=12-10-2022
+D3_L=2
+D3_L1=[26929]Project Opened.
+D3_L2=[26956]Project Closed.
+[Units]
+Count=1
+1=test_7th_9_2022 (main)

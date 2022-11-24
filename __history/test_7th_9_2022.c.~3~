@@ -1,0 +1,78 @@
+#include <tv_kit_vdk_18f6722_all.c>
+
+unsigned int8 sck;
+
+void tang_ck(){
+   if(input(up) == 0){
+      delay_ms(10);
+      if(input(up) == 1){
+         sck += 1;
+         delay_ms(200);
+      }
+   }
+}
+
+void giam_ck(){
+   if(input(dw) == 0){
+      delay_ms(10);
+      if(input(dw) == 1){
+         sck -= 1;
+         delay_ms(200);
+      }
+   }
+}
+
+void _pst() 
+{ 
+   usi8 i; usi32 x;
+   x = 0;
+   for(i = 0; i < 32; i++)
+   {
+      x = (x << 1) + 1;
+      xuat_32led_don_1dw(x);
+      delay_ms(100);
+   }
+   for(i = 0; i < 32; i++)
+   {
+      x = (x << 1);
+      xuat_32led_don_1dw(x);
+      delay_ms(100);
+   }
+}
+
+void _tsp()
+{
+   usi8 i; usi32 x;
+   x = 0;
+   for(i = 0;i < 32;i++)
+   {
+      x = (x >> 1) + 0x80000000;
+      xuat_32led_don_1dw(x);
+      delay_ms(100);
+   }
+   for(i = 0;i < 32;i++)
+   {
+      x = (x >> 1);
+      xuat_32led_don_1dw(x);
+      delay_ms(100);
+   }
+}
+
+void led_opt(unsigned int16 x){
+   unsigned int8 i;
+   for(i = 0;i < x;i++){
+      _pst();
+      delay_ms(1000);
+      _tsp();
+   }
+}
+
+void main(){
+   set_up_port();
+   xuat_32led_don_1dw(0);
+   while(true){
+      tang_ck();
+      giam_ck();
+      led_opt(sck);
+   }
+}

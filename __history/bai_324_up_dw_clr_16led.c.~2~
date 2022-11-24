@@ -1,0 +1,22 @@
+#include <tv_kit_vdk_18f6722_all.c>
+
+void up_bt(){
+   
+}
+
+void down_bt(){
+   
+}
+
+void clr_bt(){
+   
+}
+
+void main(){
+   
+   while(true){
+      up_bt();
+      down_bt();
+      clr_bt();
+   }
+}

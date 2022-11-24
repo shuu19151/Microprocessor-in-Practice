@@ -1,0 +1,20 @@
+ÀÄbai_321_on_off_8led
+   ÀÄMAIN  0/220  Ram=0
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄset_up_port  0/124  Ram=0
+      ³  ÀÄxoa_tat_ca_cac_module  0/32  Ram=0
+      ³     ÃÄxuat_rbdc  0/22  Ram=0
+      ³     ³  ÀÄxuat_1word  0/28  Ram=4
+      ³     ÃÄxuat_glcd  0/44  Ram=3
+      ³     ÃÄxuat_lcd  0/44  Ram=3
+      ³     ÃÄxuat_3led_matran  0/52  Ram=0
+      ³     ³  ÃÄxuat_1word  0/28  Ram=4
+      ³     ³  ÃÄxuat_1word  0/28  Ram=4
+      ³     ³  ÃÄxuat_1word  0/28  Ram=4
+      ³     ³  ÀÄxuat_1word  0/28  Ram=4
+      ³     ÃÄxuat_8led_7doan  0/58  Ram=2
+      ³     ÀÄxuat_32led_don_2word  0/32  Ram=4
+      ³        ÃÄxuat_1word  0/28  Ram=4
+      ³        ÀÄxuat_1word  0/28  Ram=4
+      ÃÄxuat_32led_don_4byte  0/50  Ram=4
+      ÀÄxuat_32led_don_4byte  0/50  Ram=4

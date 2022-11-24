@@ -1,0 +1,20 @@
+[PROJECT]
+Target=bai_605_joystick_lcd_7doan.hex
+Processor_Text=PIC18F6722
+CCSVersion=5.025
+Compiler=PCH
+[Target Data]
+FileList=bai_605_joystick_lcd_7doan.c
+[bai_605_joystick_lcd_7doan.c]
+Type=4
+[mru-list]
+1=bai_605_joystick_lcd_7doan.c
+[Units]
+Count=1
+1=bai_605_joystick_lcd_7doan (main)
+
+[ProjectLog]
+Days=1
+D1=16-11-2022
+D1_L=1
+D1_L1=[33825]Project Closed.

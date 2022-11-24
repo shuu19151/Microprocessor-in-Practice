@@ -1,0 +1,53 @@
+#include <tv_kit_vdk_18f6722_all.c>
+unsigned int16 gtxe = 0,giatri_xe_max = 10, slxe_conlai;
+
+void hienthi_giatri_xe(){
+    slxe_conlai = giatri_xe_max - gtxe;
+    lcd_goto_xy(1,0);
+    lcd_data(giatri_xe_max + 0x30);
+    lcd_goto_xy(0,0); 
+    lcd_data("TRI - 19151087");
+    lcd_goto_xy(2,0);
+    lcd_data(gtxe/10 + 0x30);
+    lcd_goto_xy(2,1);
+    lcd_data(gtxe%10 + 0x30);
+    lcd_goto_xy(3,0);
+    lcd_data(slxe_conlai/10 + 0x30);
+    lcd_goto_xy(3,1);
+    lcd_data(slxe_conlai%10 + 0x30);
+}
+
+void test_phim_up(){
+    if(phim_up_c1(c_ktnp,0) == co_nhan){
+        if(gtxe > 10){
+            gtxe = 10;
+        }
+        else{
+            gtxe++;
+        }
+    }
+}
+
+void test_phim_dw(){
+    if(phim_bt1_c1(c_ktnp,0) == co_nhan){
+        if(gtxe < 0){
+            gtxe = 0;
+        }
+        else{
+            gtxe--;
+        }
+    }
+}
+
+void main()
+{
+    set_up_port();
+    lcd_setup();
+    while(true)
+    {
+        test_phim_up();
+        test_phim_dw();
+        hienthi_giatri_xe();
+        delay_ms(200);
+    } 
+}

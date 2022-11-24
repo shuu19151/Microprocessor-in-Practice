@@ -1,0 +1,50 @@
+ÀÄtest1_24th_10_2022
+   ÀÄMAIN  0/214  Ram=0
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄset_up_port  0/124  Ram=0
+      ³  ÀÄxoa_tat_ca_cac_module  0/32  Ram=0
+      ³     ÃÄxuat_rbdc  0/22  Ram=0
+      ³     ³  ÀÄxuat_1word  0/28  Ram=4
+      ³     ÃÄxuat_glcd  0/44  Ram=3
+      ³     ÃÄxuat_lcd  0/44  Ram=3
+      ³     ÃÄxuat_3led_matran  0/52  Ram=0
+      ³     ³  ÃÄxuat_1word  0/28  Ram=4
+      ³     ³  ÃÄxuat_1word  0/28  Ram=4
+      ³     ³  ÃÄxuat_1word  0/28  Ram=4
+      ³     ³  ÀÄxuat_1word  0/28  Ram=4
+      ³     ÃÄxuat_8led_7doan  0/56  Ram=2
+      ³     ÀÄxuat_32led_don_2word  0/30  Ram=4
+      ³        ÃÄxuat_1word  0/28  Ram=4
+      ³        ÀÄxuat_1word  0/28  Ram=4
+      ÃÄcaidat_preset  0/52  Ram=1
+      ³  ÃÄkey_tip229_cdoi_c2  0/56  Ram=2
+      ³  ³  ÃÄkey_tip229  0/60  Ram=2
+      ³  ³  ÀÄ@delay_ms1  0/38  Ram=1
+      ³  ÀÄ@delay_ms1  0/38  Ram=1
+      ÃÄkt_start_stop_clr  0/62  Ram=1
+      ³  ÃÄphim_bt0_c2  0/60  Ram=2
+      ³  ³  ÀÄ@delay_ms1  0/38  Ram=1
+      ³  ÃÄphim_bt2_c2  0/60  Ram=2
+      ³  ³  ÀÄ@delay_ms1  0/38  Ram=1
+      ³  ÀÄphim_bt1_c2  0/60  Ram=2
+      ³     ÀÄ@delay_ms1  0/38  Ram=1
+      ÃÄdem_counter  0/98  Ram=1
+      ³  ÃÄhienthi_led7d  0/30  Ram=0
+      ³  ³  ÃÄ@const725  0/36  Ram=0
+      ³  ³  ÃÄ@const725  0/36  Ram=0
+      ³  ³  ÃÄgiaima_bin_2so_vitri_vn  0/124  Ram=6
+      ³  ³  ³  ÃÄ@DIV88  0/40  Ram=3
+      ³  ³  ³  ÃÄ@const725  0/36  Ram=0
+      ³  ³  ³  ÃÄ@DIV88  0/40  Ram=3
+      ³  ³  ³  ÃÄ@DIV88  0/40  Ram=3
+      ³  ³  ³  ÀÄ@const725  0/36  Ram=0
+      ³  ³  ÀÄxuat_8led_7doan  0/56  Ram=2
+      ³  ÃÄxuat_32led_don_1dw  0/36  Ram=9
+      ³  ³  ÀÄxuat_32led_don_2word  0/30  Ram=4
+      ³  ³     ÀÄ*
+      ³  ÃÄ@delay_ms1  0/38  Ram=1
+      ³  ÃÄxuat_32led_don_1dw  0/36  Ram=9
+      ³  ³  ÀÄ*
+      ³  ÀÄ@delay_ms1  0/38  Ram=1
+      ÀÄhienthi_led7d  0/30  Ram=0
+         ÀÄ*

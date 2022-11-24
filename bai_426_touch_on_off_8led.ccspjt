@@ -1,0 +1,39 @@
+[PROJECT]
+Target=bai_426_touch_on_off_8led.hex
+Processor_Text=PIC18F6722
+CCSVersion=5.025
+Compiler=PCH
+[Target Data]
+FileList=bai_426_touch_on_off_8led.c
+[bai_426_touch_on_off_8led.c]
+Type=4
+[mru-list]
+1=bai_426_touch_on_off_8led.c
+
+[ProjectLog]
+Days=1
+D1=19-10-2022
+D1_L=12
+D1_L1=[29083]Stopped Editing.
+TotalEdit=6
+TotalDebug=0
+D1_E=6
+D1_D=0
+D1_L2=[29429]Started Editing.
+D1_L3=[29789]Stopped Editing.
+D1_L4=[30500]Started Editing.
+D1_L5=[31254]Stopped Editing.
+D1_L6=[31306]Started Editing.
+D1_L7=[31663]Stopped Editing.
+D1_L8=[32388]Started Editing.
+D1_L9=[32955]Stopped Editing.
+D1_L10=[34561]Started Editing.
+D1_L11=[35035]Stopped Editing.
+D1_L12=[36934]Project Closed.
+
+[Opened Files]
+1=bai_426_touch_on_off_8led.c
+2=
+[Units]
+Count=1
+1=bai_426_touch_on_off_8led (main)

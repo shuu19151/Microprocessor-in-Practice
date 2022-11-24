@@ -1,0 +1,28 @@
+[PROJECT]
+Target=bai_326_32led_3y_cau_up_dw.hex
+Processor_Text=PIC18F6722
+CCSVersion=5.025
+Compiler=PCH
+[Target Data]
+FileList=bai_326_32led_3y_cau_up_dw.c
+[bai_326_32led_3y_cau_up_dw.c]
+Type=4
+[mru-list]
+1=bai_326_32led_3y_cau_up_dw.c
+
+[ProjectLog]
+Days=1
+D1=14-09-2022
+D1_L=5
+D1_L1=[30390]Started Editing.
+D1_L2=[30857]Stopped Editing.
+D1_L3=[33046]Started Editing.
+D1_L4=[33346]Stopped Editing.
+D1_L5=[34812]Project Closed.
+
+[Opened Files]
+1=bai_326_32led_3y_cau_up_dw.c
+2=
+[Units]
+Count=1
+1=bai_326_32led_3y_cau_up_dw (main)

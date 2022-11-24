@@ -1,0 +1,14 @@
+>>> Warning 230 "C:\Tri\HK 1 nam 4\TT micro\Project\tv_05_18f6722_lcd.c" Line 243(1,1): String truncated
+>>> Warning 230 "C:\Tri\HK 1 nam 4\TT micro\Project\tv_05_18f6722_lcd.c" Line 262(1,1): String truncated
+>>> Warning 230 "C:\Tri\HK 1 nam 4\TT micro\Project\tv_05_18f6722_lcd.c" Line 263(1,1): String truncated
+>>> Warning 230 "C:\Tri\HK 1 nam 4\TT micro\Project\tv_05_18f6722_lcd.c" Line 285(1,1): String truncated
+>>> Warning 230 "C:\Tri\HK 1 nam 4\TT micro\Project\tv_05_18f6722_lcd.c" Line 288(1,1): String truncated
+>>> Warning 230 "C:\Tri\HK 1 nam 4\TT micro\Project\tv_05_18f6722_lcd.c" Line 289(1,1): String truncated
+>>> Warning 230 "C:\Tri\HK 1 nam 4\TT micro\Project\tv_05_18f6722_lcd.c" Line 310(1,1): String truncated
+>>> Warning 230 "C:\Tri\HK 1 nam 4\TT micro\Project\tv_05_18f6722_lcd.c" Line 313(1,1): String truncated
+>>> Warning 230 "C:\Tri\HK 1 nam 4\TT micro\Project\tv_05_18f6722_lcd.c" Line 316(1,1): String truncated
+>>> Warning 230 "C:\Tri\HK 1 nam 4\TT micro\Project\tv_05_18f6722_lcd.c" Line 317(1,1): String truncated
+>>> Warning 201 "midtermtest.c" Line 53(1,1): Assignment inside relational expression
+      Memory usage:   ROM=1%      RAM=2% - 3%
+      0 Errors,  11 Warnings.
+Build Successful.

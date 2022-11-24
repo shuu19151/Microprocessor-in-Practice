@@ -1,0 +1,23 @@
+[PROJECT]
+Target=C:\Tri\HK 1 nam 4\TT micro\Project\main.hex
+Processor_Text=PIC18F6722
+CCSVerions=5.025
+Compiler=PCH
+[Target Data]
+FileList=main.c
+[Directories]
+Include=
+[C:\Tri\HK 1 nam 4\TT micro\Project\main]
+Type=4
+[mru-list]
+1=main.c
+[Units]
+Count=1
+1=main (main)
+
+[ProjectLog]
+Days=1
+D1=24-08-2022
+D1_L=2
+D1_L1=[33605]Project Opened.
+D1_L2=[33615]Project Closed.

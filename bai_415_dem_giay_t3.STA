@@ -1,0 +1,79 @@
+
+ROM used:   1130/131072 (1%)
+            1130/131072 (1%) including unused fragments
+
+            0.2 Average locations per line
+            1.1 Average locations per statement
+
+RAM used:   85/3936 (2%) at main() level
+            105/3936 (3%) worst case
+
+Stack used: 2 worst case (1 in main + 1 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   33    20   2  bai_415_dem_giay_t3.c
+   24     0   0  tv_kit_vdk_18f6722_all.c
+  133     0   0  tv_01_18f6722_define.c
+  912     0   0  ..\..\..\..\Program Files (x86)\PICC\Devices\18f6722.h
+  430   105  10  tv_02_18f6722_mbi.c
+  385   148  14  tv_03_18f6722_key.c
+ 2229   257  24  ..\..\..\..\Program Files (x86)\PICC\Drivers\math.h
+  154    63   6  tv_04_18f6722_8led_7doan.c
+  422   199  19  tv_05_18f6722_lcd.c
+  127    45   4  tv_05_i2c_ds13_pcf.c
+   55    23   2  tv_06_18f6722_adc.c
+   49    27   3  tv_09_i2c_at24cxx.c
+   80    40   4  tv_ds18b20.c
+  230    54   5  ..\..\..\..\Program Files (x86)\PICC\Drivers\touch.c
+   64    35   3  tv_dht11.c
+   40    38   4  tv_rotary_encoder.c
+   30    18   2  tv_HX711.c
+----- -----
+ 5397  1072 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     36   2    0             @const725
+0    124   5    0    629  2.4  set_up_port
+0     28   1    4     57  1.6  xuat_1word
+0     22   1    0     48  1.1  xuat_rbdc
+0     44   2    3    106  2.1  xuat_lcd
+0     44   2    3    106  2.1  xuat_glcd
+0     52   2    0    152  1.8  xuat_3led_matran
+0     56   2    2    162  4.4  xuat_8led_7doan
+0     32   1    4    104  2.0  xuat_32led_don_2word
+0     32   1    0    121  1.7  xoa_tat_ca_cac_module
+0    124   5    6    305  5.1  giaima_bin_2so_vitri_vn
+0     40   2    3             @DIV88
+0      2   0    0             @const1134
+0     10   0    0             @const1217
+0     22   1    0             @const1219
+0     16   1    0     29  1.2  timer3_ct_con_ngat
+0     46   2    0    183  4.9  h415_dem_giay_timer3
+0    214   9    0    174  2.7  MAIN
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               13
+    Statements              1072
+    Comments                1138
+    Volume (V)              3735
+    Difficulty (D)          33.2
+    Effort to implement (E) 124103
+    Time to implement (T)   1 hours, 55 minutes
+    Est Delivered Bugs (B)  1
+    Cyclomatic Complexity   5
+    Maintainability (MI)    117
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-000BC   182  0  
+000BE-0FFFE   944  64402  
+10000-1FFFE     0  65536  
+
+
+

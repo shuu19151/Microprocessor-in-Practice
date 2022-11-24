@@ -1,0 +1,32 @@
+#include <tv_kit_vdk_18f6722_all.c>
+unsigned int8 sck, slx;
+unsigned int32 m, n, y1, y2, temp1, temp2;
+void main(){
+   set_up_port();
+   while(true){
+      m = 0;
+      n = 0;
+      sck = 32;
+      y1 = 0;
+      y2 = 0;
+      xuat_32led_don_2word(y1, y2);
+      delay_ms(50);
+      while(sck > 0){
+         slx = sck;
+         temp1 = 0x80000000;
+         temp2 = 0x01;
+         while(slx > 0){
+            y1 = temp1 | m;
+            y2 = temp2 | n;
+            xuat_32led_don_2word(y1, y2);
+            delay_ms(20);
+            slx = slx - 1;
+            temp1 = temp1 >> 1;
+            temp2 = temp2 << 1;
+         }
+         m = y1;
+         n = y2;
+         sck = sck - 1;
+      }
+   }
+}

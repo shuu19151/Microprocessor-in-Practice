@@ -1,0 +1,21 @@
+[PROJECT]
+Target=bai_308_sdta_pst_tsp_32led.hex
+Processor_Text=PIC18F6722
+CCSVersion=5.025
+Compiler=PCH
+[Target Data]
+FileList=bai_308_sdta_pst_tsp_32led.c
+[bai_308_sdta_pst_tsp_32led.c]
+Type=4
+[mru-list]
+1=bai_308_sdta_pst_tsp_32led.c
+[Units]
+Count=1
+1=bai_308_sdta_pst_tsp_32led (main)
+
+[ProjectLog]
+Days=1
+D1=31-08-2022
+D1_L=2
+D1_L1=[37906]Started Editing.
+D1_L2=[39185]Project Closed.

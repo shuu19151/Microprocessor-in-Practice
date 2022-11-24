@@ -1,0 +1,71 @@
+#include <tv_kit_vdk_18f6722_all.c>
+unsigned int8 mp8, i,tam;
+unsigned int8 hang0[20];
+int1 tt_ena_dis = 0;
+
+#int_timer3
+void timer3_ct_con_ngat() 
+{ 
+    bdn++; 
+    set_timer3(3036);
+} 
+void timer3_xung_noi_on(int1 tt) 
+{ 
+    setup_timer_3(t3_internal|t3_div_by_8); 
+    if(tt==true) set_timer3(3036); 
+} 
+void timer3_xung_noi_off(int1 tt) 
+{ 
+    setup_timer_3(t3_disabled); 
+    if(tt==true) set_timer3(3036);
+}
+
+void hienthi_lcd(){
+lcd_goto_xy(0,0);
+    lcd_data("DIEU KHIEN BUZ: ");
+    lcd_goto_xy(1,0);
+    lcd_data("THOI GIAN CAI: ");
+    lcd_goto_xy(2,0);
+    lcd_data("THOI GIAN DEM: ");
+    lcd_goto_xy(1,16);
+    lcd_data(tam/10 + 0x30);
+    lcd_data(tam%10 + 0x30);
+    
+}
+
+void caidat(){
+    mp8 = key_tip229_cdoi_c2(10);
+    if((mp8>0)&&(mp8<17))
+    {
+        mp8 = mp8%16;
+        if((mp8<10)&&(tt_ena_dis != enable))
+        {
+            bcd_8led[1] = bcd_8led[0];
+            bcd_8led[0] = mp8;
+            delay_ms(200);
+            tam = bcd_8led[0] + bcd_8led[1]*10;
+            if(tam > 59) tam = 59;
+        }
+        else if(mp8 == 10){
+            tat_32led();
+
+        }
+    }
+}
+
+
+void main() 
+{ 
+    set_up_port();
+    lcd_setup();
+    
+    //setup_timer_3(); 
+    //set_timer3(0); t0_tam = 1; g_han=50;
+    tam = 0;
+    sang_32led();
+    while(true)
+    {
+        hienthi_lcd();
+        caidat();
+    }
+}

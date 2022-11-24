@@ -1,0 +1,50 @@
+[PROJECT]
+Target=bai_428_touch_dinh_thoi_2so.hex
+Processor_Text=PIC18F6722
+CCSVersion=5.025
+Compiler=PCH
+[Target Data]
+FileList=bai_428_touch_dinh_thoi_2so.c
+[bai_428_touch_dinh_thoi_2so.c]
+Type=4
+[mru-list]
+1=bai_428_touch_dinh_thoi_2so.c
+
+[ProjectLog]
+Days=3
+D1=19-10-2022
+D1_L=6
+D1_L1=[38058]Started Editing.
+D1_L2=[38359]Stopped Editing.
+TotalEdit=8
+TotalDebug=0
+D1_E=7
+D1_D=0
+D1_L3=[38807]Started Editing.
+D1_L4=[38823]Stopped Editing.
+D1_L5=[38858]Started Editing.
+D1_L6=[39038]Project Closed.
+D2=24-10-2022
+D2_L=4
+D2_L1=[50799]Project Opened.
+D2_L2=[54413]Started Editing.
+D2_L3=[54781]Stopped Editing.
+D2_L4=[58112]Project Closed.
+D3=26-10-2022
+D3_L=4
+D3_L1=[39124]Project Opened.
+D3_L2=[39141]Started Editing.
+D3_L3=[39200]Stopped Editing.
+D3_E=1
+D3_D=0
+D3_L4=[39201]Project Closed.
+
+[Opened Files]
+1=test1_24th_10_2022.c
+2=test1_26th_2022.c
+3=midtermtest.c
+4=bai_428_touch_dinh_thoi_2so.c
+5=
+[Units]
+Count=1
+1=bai_428_touch_dinh_thoi_2so (main)

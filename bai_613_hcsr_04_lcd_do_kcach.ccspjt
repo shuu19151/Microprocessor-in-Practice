@@ -1,0 +1,29 @@
+[PROJECT]
+Target=bai_613_hcsr_04_lcd_do_kcach.hex
+Processor_Text=PIC18F6722
+CCSVersion=5.025
+Compiler=PCH
+[Target Data]
+FileList=bai_613_hcsr_04_lcd_do_kcach.c
+[bai_613_hcsr_04_lcd_do_kcach.c]
+Type=4
+[mru-list]
+1=bai_613_hcsr_04_lcd_do_kcach.c
+[Units]
+Count=1
+1=bai_613_hcsr_04_lcd_do_kcach (main)
+
+[ProjectLog]
+Days=2
+D1=16-11-2022
+D1_L=2
+D1_L1=[40930]Stopped Editing.
+TotalEdit=1
+TotalDebug=0
+D1_E=1
+D1_D=0
+D1_L2=[42287]Project Closed.
+D2=23-11-2022
+D2_L=2
+D2_L1=[26439]Project Opened.
+D2_L2=[27408]Project Closed.

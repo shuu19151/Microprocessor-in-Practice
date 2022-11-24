@@ -1,0 +1,21 @@
+[PROJECT]
+Target=bai_610_gp2d12_tinh_dtich.hex
+Processor_Text=PIC18F6722
+CCSVersion=5.025
+Compiler=PCH
+[Target Data]
+FileList=bai_610_gp2d12_tinh_dtich.c
+[bai_610_gp2d12_tinh_dtich.c]
+Type=4
+[mru-list]
+1=bai_610_gp2d12_tinh_dtich.c
+[Units]
+Count=1
+1=bai_610_gp2d12_tinh_dtich (main)
+
+[ProjectLog]
+Days=1
+D1=23-11-2022
+D1_L=2
+D1_L1=[31958]Started Editing.
+D1_L2=[31983]Project Closed.

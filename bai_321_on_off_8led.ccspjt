@@ -1,0 +1,21 @@
+[PROJECT]
+Target=bai_321_on_off_8led.hex
+Processor_Text=PIC18F6722
+CCSVersion=5.025
+Compiler=PCH
+[Target Data]
+FileList=bai_321_on_off_8led.c
+[bai_321_on_off_8led.c]
+Type=4
+[mru-list]
+1=bai_321_on_off_8led.c
+[Units]
+Count=1
+1=bai_321_on_off_8led (main)
+
+[ProjectLog]
+Days=1
+D1=07-09-2022
+D1_L=2
+D1_L1=[28467]Started Editing.
+D1_L2=[28472]Project Closed.

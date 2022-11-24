@@ -1,0 +1,216 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     @INTERRUPT_AREA
+005     @INTERRUPT_AREA
+006     @INTERRUPT_AREA
+007     @INTERRUPT_AREA
+008     @INTERRUPT_AREA
+009     @INTERRUPT_AREA
+00A     @INTERRUPT_AREA
+00B     @INTERRUPT_AREA
+00C     @INTERRUPT_AREA
+00D     @INTERRUPT_AREA
+00E     @INTERRUPT_AREA
+00F     @INTERRUPT_AREA
+010     @INTERRUPT_AREA
+011     @INTERRUPT_AREA
+012     @INTERRUPT_AREA
+013     @INTERRUPT_AREA
+014     @INTERRUPT_AREA
+015     @INTERRUPT_AREA
+016     @INTERRUPT_AREA
+017     @INTERRUPT_AREA
+018     @INTERRUPT_AREA
+019     @INTERRUPT_AREA
+01A     @INTERRUPT_AREA
+01B-01C rbdc
+01B.0   step_motor_enable
+01B.1   ms1
+01B.2   ms2
+01B.3   ms3
+01B.4   step
+01B.5   dir
+01B.6   servo1
+01B.7   step_motor_in1
+01C.0   step_motor_in2
+01C.1   step_motor_in3
+01C.2   step_motor_in4
+01C.3   triac_1
+01C.4   triac_2
+01C.5   buzzer
+01C.6   relay_1
+01C.7   relay_2
+01D-024 wlmt
+025-02C led_7d
+02D     dl_tip
+02E-02F dl_btn
+030-037 bcd_8led
+038     lcd_ctrl
+038.0   lcd_e
+038.1   lcd_rw
+038.2   lcd_rs
+038.3   lcd_p
+039-041 time_w
+042-04A time_r
+04B.0   ttqn
+04B.1   tt_ena_dis
+04B.2   tt_on_off
+04C-04D so_ng
+04E-04F so_tp
+050     rti
+051     vt_tr
+052     vt_ht
+053     mp8
+054     giay
+055     giay_cai
+056     bdn
+057     xuat_glcd.ctrl
+057     giaima_bin_2so_vitri_vn.x
+057     xuat_8led_7doan.i
+057     xuat_lcd.ctrl
+057     timer3_xung_noi_off.tt
+057-05A atan2.y
+057-05A @SPI_XFER_1_32.P1
+057     timer3_xung_noi_on.tt
+057     key_tip229_cdoi_c2.dl
+057-05A xuat_32led_don_1dw.dwld
+057     h428_dem_giay_dinh_thoi_timer3.@SCRATCH1
+057     h428_cai_giay_dinh_thoi_2so.@SCRATCH1
+058     key_tip229_cdoi_c2.key
+058     xuat_glcd.db
+058     giaima_bin_2so_vitri_vn.y
+058     xuat_lcd.db
+058     xuat_8led_7doan.@SCRATCH1
+059     giaima_bin_2so_vitri_vn.xvn
+059     @delay_ms1.P1
+059     key_tip229.i
+059     xuat_lcd.@SCRATCH1
+059     xuat_glcd.@SCRATCH1
+05A     key_tip229.key
+05A     giaima_bin_2so_vitri_vn.@SCRATCH1
+05B-05C xuat_32led_don_1dw.wd1
+05B-05E atan2.x
+05B     giaima_bin_2so_vitri_vn.@SCRATCH2
+05C     giaima_bin_2so_vitri_vn.@SCRATCH3
+05D-05E xuat_32led_don_1dw.wd0
+05D     @DIV88.P1
+05E     @DIV88.P1
+05F-060 xuat_32led_don_2word.wld1
+05F-062 atan2.z
+05F     xuat_32led_don_1dw.@SCRATCH1
+05F     @DIV88.@SCRATCH1
+061-062 xuat_32led_don_2word.wld0
+063.0   atan2.sign
+063-064 xuat_1word.x
+064     atan2.quad
+065     xuat_1word.@SCRATCH1
+066     xuat_1word.@SCRATCH2
+F71     CCP_5
+F71     CCP_5_LOW
+F72     CCP_5_HIGH
+F74     CCP_4_LOW
+F74     CCP_4
+F75     CCP_4_HIGH
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FB8     CCP_3_LOW
+FB8     CCP_3
+FB9     CCP_3_HIGH
+FBB     CCP_2_LOW
+FBB     CCP_2
+FBC     CCP_2_HIGH
+FBE     CCP_1
+FBE     CCP_1_LOW
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P1
+FE9-FEA @WRITE_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P3
+FE9-FEA @READ_PACKED_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+0000BE  ma7doan.call
+0000D2  ma7doan.data
+0000E2  @const1134.call
+0000E4  @const1217.call
+0000EE  @const1219.call
+000104  timer3_ct_con_ngat
+000114  xuat_1word
+000130  xuat_rbdc
+000146  xuat_glcd
+000172  xuat_lcd
+00019E  xuat_3led_matran
+0001D2  xuat_8led_7doan
+00020A  xuat_32led_don_2word
+000228  xoa_tat_ca_cac_module
+000248  set_up_port
+0002C4  key_tip229
+000300  @delay_ms1
+000326  key_tip229_cdoi_c2
+00035E  xuat_32led_don_1dw
+000382  timer3_xung_noi_on
+000396  timer3_xung_noi_off
+0003A6  h428_cai_giay_dinh_thoi_2so
+000434  h428_dem_giay_dinh_thoi_timer3
+000462  @DIV88
+00048A  giaima_bin_2so_vitri_vn
+000506  h428_hien_thi_dinh_thoi_giay_2so
+000528  b428_dinh_thoi_giay_2so
+000532  MAIN
+000532  @cinit1
+00058C  @cinit2
+
+Project Directory:
+    C:\Tri\HK 1 nam 4\TT micro\Project\
+
+Project Files:
+    bai_428_touch_dinh_thoi_2so.c                           [26-Oct-22 10:53  CRC=BA2B75CB]
+    tv_kit_vdk_18f6722_all.c                                [21-Feb-21 21:13  CRC=5D4EC53A]
+    tv_01_18f6722_define.c                                  [21-Feb-21 16:52  CRC=DDFEFEAB]
+    ..\..\..\..\Program Files (x86)\PICC\Devices\18f6722.h  [18-Apr-14 16:57  CRC=BA4D6F76]
+    tv_02_18f6722_mbi.c                                     [19-Feb-21 08:11  CRC=CB47246C]
+    tv_03_18f6722_key.c                                     [19-Feb-21 08:51  CRC=9F3F53C3]
+    ..\..\..\..\Program Files (x86)\PICC\Drivers\math.h     [28-Sep-12 11:35  CRC=546412C9]
+    tv_04_18f6722_8led_7doan.c                              [19-Feb-21 09:12  CRC=ADC592F4]
+    tv_05_18f6722_lcd.c                                     [20-Feb-21 09:55  CRC=8C8B9106]
+    tv_05_i2c_ds13_pcf.c                                    [16-Feb-21 15:32  CRC=40082E6B]
+    tv_06_18f6722_adc.c                                     [18-Jan-21 20:14  CRC=315B9BE6]
+    tv_09_i2c_at24cxx.c                                     [07-Feb-21 14:31  CRC=63419B07]
+    tv_ds18b20.c                                            [16-Nov-20 15:09  CRC=468E92AC]
+    ..\..\..\..\Program Files (x86)\PICC\Drivers\touch.c    [02-Mar-10 13:04  CRC=24D0ECE7]
+    tv_dht11.c                                              [19-Feb-21 19:56  CRC=B4A79F17]
+    tv_rotary_encoder.c                                     [21-Dec-20 11:19  CRC=C166F832]
+    tv_HX711.c                                              [01-Jan-21 20:09  CRC=2B32E769]
+
+Source signature=B57BA31E
+
+Units:
+    bai_428_touch_dinh_thoi_2so (main)
+
+Compiler Settings:
+    Processor:      PIC18F6722
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:       CCS5
+
+Output Files:
+    XREF file:   bai_428_touch_dinh_thoi_2so.xsym
+    Errors:      bai_428_touch_dinh_thoi_2so.err
+    Ext Symbols: bai_428_touch_dinh_thoi_2so.esym
+    INHX32:      bai_428_touch_dinh_thoi_2so.hex
+    Symbols:     bai_428_touch_dinh_thoi_2so.sym
+    List:        bai_428_touch_dinh_thoi_2so.lst
+    Debug/COFF:  bai_428_touch_dinh_thoi_2so.cof
+    Project:     bai_428_touch_dinh_thoi_2so.ccspjt
+    Call Tree:   bai_428_touch_dinh_thoi_2so.tre
+    Statistics:  bai_428_touch_dinh_thoi_2so.STA

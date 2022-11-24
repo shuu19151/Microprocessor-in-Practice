@@ -1,0 +1,32 @@
+[PROJECT]
+Target=bai_310_32led_tong_hop.hex
+Processor_Text=PIC18F6722
+CCSVersion=5.025
+Compiler=PCH
+[Target Data]
+FileList=bai_310_32led_tong_hop.c
+[bai_310_32led_tong_hop.c]
+Type=4
+[mru-list]
+1=bai_310_32led_tong_hop.c
+[Units]
+Count=1
+1=bai_310_32led_tong_hop (main)
+
+[ProjectLog]
+Days=1
+D1=07-09-2022
+D1_L=2
+D1_L1=[30476]Stopped Editing.
+TotalEdit=6
+TotalDebug=0
+D1_E=6
+D1_D=0
+D1_L2=[30789]Project Closed.
+
+[Opened Files]
+1=bai_321_on_off_8led.c
+2=bai_322_on_off_inv_8led.c
+3=bai_323_on_off_inv_cd_8led.c
+4=bai_310_32led_tong_hop.c
+5=

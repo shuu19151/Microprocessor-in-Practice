@@ -1,0 +1,91 @@
+
+ROM used:   1504/131072 (1%)
+            1504/131072 (1%) including unused fragments
+
+            0.3 Average locations per line
+            1.4 Average locations per statement
+
+RAM used:   63/3936 (2%) at main() level
+            83/3936 (2%) worst case
+
+Stack used: 4 worst case (4 in main + 0 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   61    38   3  bai_509_lcd_8l7d_dem_sp_t0_ud.c
+   24     0   0  tv_kit_vdk_18f6722_all.c
+  133     0   0  tv_01_18f6722_define.c
+  912     0   0  ..\..\..\..\Program Files (x86)\PICC\Devices\18f6722.h
+  430   105  10  tv_02_18f6722_mbi.c
+  385   148  14  tv_03_18f6722_key.c
+ 2229   257  24  ..\..\..\..\Program Files (x86)\PICC\Drivers\math.h
+  154    63   6  tv_04_18f6722_8led_7doan.c
+  422   199  18  tv_05_18f6722_lcd.c
+  127    45   4  tv_05_i2c_ds13_pcf.c
+   55    23   2  tv_06_18f6722_adc.c
+   49    27   2  tv_09_i2c_at24cxx.c
+   80    40   4  tv_ds18b20.c
+  230    54   5  ..\..\..\..\Program Files (x86)\PICC\Drivers\touch.c
+   64    35   3  tv_dht11.c
+   40    38   3  tv_rotary_encoder.c
+   30    18   2  tv_HX711.c
+----- -----
+ 5425  1090 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     38   1    1             @delay_ms1
+0     36   1    0             @const725
+0    124   4    0    629  2.4  set_up_port
+0     28   1    4     57  1.6  xuat_1word
+0     22   1    0     48  1.1  xuat_rbdc
+0     42   1    3    106  2.1  xuat_lcd
+0     44   1    3    106  2.1  xuat_glcd
+0     52   2    0    152  1.8  xuat_3led_matran
+0     56   2    2    162  4.4  xuat_8led_7doan
+0     32   1    4    104  2.0  xuat_32led_don_2word
+0     32   1    0    121  1.7  xoa_tat_ca_cac_module
+0     60   2    2    196  3.8  phim_bt0_c2
+0     60   2    2    192  4.2  phim_bt2_c2
+0    122   4    6    305  5.1  giaima_bin_2so_vitri_vn
+0     40   1    3             @DIV88
+0     38   1    1    123  2.2  lcd_xuat_8bit
+0     10   0    1     43  1.5  lcd_command
+0     10   0    1     43  1.5  lcd_data
+0     72   2    0    310  2.3  lcd_setup
+0     24   1    0             @const1020
+0     16   1    3    145  3.9  lcd_goto_xy
+0      2   0    0             @const1134
+0     40   1    3             @PSTRINGC_1013
+0     10   0    0             @const1217
+0     22   1    0             @const1219
+0     28   1    0     82  1.6  b411_hienthi_4led7doan
+0     30   1    0    130  3.0  b411_dem_sp_t0
+0    102   3    1    228  3.2  hienthi_lcd
+0     34   1    1    106  2.1  kt_start_stop
+0    254   8    0    303  3.1  MAIN
+0     10   0    0    354  3.2  @const1243
+0     10   0    0             @const1244
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               23
+    Statements              1090
+    Comments                1141
+    Volume (V)              7686
+    Difficulty (D)          59.8
+    Effort to implement (E) 459513
+    Time to implement (T)   7 hours, 5 minutes
+    Est Delivered Bugs (B)  2
+    Cyclomatic Complexity   11
+    Maintainability (MI)    28
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-0FFFE  1500  64032  
+10000-1FFFE     0  65536  
+
+
+

@@ -1,0 +1,51 @@
+#include <tv_kit_vdk_18f6722_all.c>
+float kcs;
+void h613_lcd_hien_thi_hcsr04() 
+{ 
+    lcd_goto_xy(2,14); 
+    lcd_data("HCSR04"); 
+} 
+void h613_tao_xung_trigger()
+{ 
+    output_high(trig); 
+    delay_us(20); 
+    output_low(trig); 
+    set_timer3(0); 
+    while(!(input(echo))); 
+    setup_timer_3(t3_internal|t3_div_by_8); 
+    while(input(echo)); 
+    setup_timer_3(t3_disabled);
+    kcs = get_timer3();
+}
+void b613_cbkc_hc04() 
+{ 
+    usi16 kc_ng,kc_tp,kc_t;
+ 
+    h613_tao_xung_trigger();
+    kcs=kcs*1.6; 
+    kcs=(kcs/58); 
+ 
+    float_to_ng_2so_tp(kcs); 
+    kc_ng = so_ng;
+    kc_tp = so_tp;
+    if(kc_t!=kc_ng)
+    {
+        kc_t=kc_ng;
+        lcd_gm_ht_2so_to_xvn(kc_ng,2,0,kx_vn);
+        giaima_bin_2so_vitri_vn(kc_ng,3,cx_vn);
+        xuat_8led_7doan();
+    }
+    lcd_hien_thi_2so_tp_nho(kc_tp,3,6);
+}
+
+void main()
+{ 
+    set_up_port();
+    lcd_setup();
+    lcd_khoi_tao_cgram_so_to();
+    h613_lcd_hien_thi_hcsr04();
+    while(true)
+    { 
+        b613_cbkc_hc04();
+    } 
+}

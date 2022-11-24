@@ -1,0 +1,36 @@
+[PROJECT]
+Target=bai_609_gp2d12_lcd_do_kcach.hex
+Processor_Text=PIC18F6722
+CCSVersion=5.025
+Compiler=PCH
+[Target Data]
+FileList=bai_609_gp2d12_lcd_do_kcach.c
+[bai_609_gp2d12_lcd_do_kcach.c]
+Type=4
+[mru-list]
+1=bai_609_gp2d12_lcd_do_kcach.c
+
+[ProjectLog]
+Days=1
+D1=16-11-2022
+D1_L=8
+D1_L1=[34030]Started Editing.
+D1_L2=[34330]Stopped Editing.
+D1_L3=[37745]Started Editing.
+D1_L4=[38532]Stopped Editing.
+D1_L5=[38772]Started Editing.
+D1_L6=[39396]Stopped Editing.
+D1_L7=[39945]Started Editing.
+D1_L8=[40185]Project Closed.
+
+[Opened Files]
+1=test1_24th_10_2022.c
+2=bai_509_lcd_8l7d_dem_sp_t0_ud.c
+3=bai_501_lcd_ht_4hang.c
+4=bai_507_lcd_mtp4x4_buzzer_on_off.c
+5=bai_601_lm35a_lcd_7doan_den_buz_bt3.c
+6=bai_609_gp2d12_lcd_do_kcach.c
+7=
+[Units]
+Count=1
+1=bai_609_gp2d12_lcd_do_kcach (main)

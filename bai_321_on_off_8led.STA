@@ -1,0 +1,73 @@
+
+ROM used:   744/131072 (1%)
+            744/131072 (1%) including unused fragments
+
+            0.1 Average locations per line
+            0.7 Average locations per statement
+
+RAM used:   60/3936 (2%) at main() level
+            80/3936 (2%) worst case
+
+Stack used: 1 worst case (1 in main + 0 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   13     9   1  bai_321_on_off_8led.c
+   24     0   0  tv_kit_vdk_18f6722_all.c
+  133     0   0  tv_01_18f6722_define.c
+  912     0   0  ..\..\..\..\Program Files (x86)\PICC\Devices\18f6722.h
+  430   105  10  tv_02_18f6722_mbi.c
+  385   148  14  tv_03_18f6722_key.c
+ 2229   257  24  ..\..\..\..\Program Files (x86)\PICC\Drivers\math.h
+  154    63   6  tv_04_18f6722_8led_7doan.c
+  422   199  19  tv_05_18f6722_lcd.c
+  127    45   4  tv_05_i2c_ds13_pcf.c
+   55    23   2  tv_06_18f6722_adc.c
+   49    27   3  tv_09_i2c_at24cxx.c
+   80    40   4  tv_ds18b20.c
+  230    54   5  ..\..\..\..\Program Files (x86)\PICC\Drivers\touch.c
+   64    35   3  tv_dht11.c
+   40    38   4  tv_rotary_encoder.c
+   30    18   2  tv_HX711.c
+----- -----
+ 5377  1061 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0    124   8    0    629  2.4  set_up_port
+0     28   2    4     57  1.6  xuat_1word
+0     22   1    0     48  1.1  xuat_rbdc
+0     44   3    3    106  2.1  xuat_lcd
+0     44   3    3    106  2.1  xuat_glcd
+0     52   3    0    152  1.8  xuat_3led_matran
+0     58   4    2    162  4.4  xuat_8led_7doan
+0     32   2    4    104  2.0  xuat_32led_don_2word
+0     32   2    0    121  1.7  xoa_tat_ca_cac_module
+0     50   3    4    160  1.8  xuat_32led_don_4byte
+0      2   0    0             @const1134
+0     10   1    0             @const1217
+0     22   1    0             @const1219
+0    220  15    0    185  2.2  MAIN
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               11
+    Statements              1061
+    Comments                1138
+    Volume (V)              3076
+    Difficulty (D)          23.4
+    Effort to implement (E) 71978
+    Time to implement (T)   1 hours, 7 minutes
+    Est Delivered Bugs (B)  1
+    Cyclomatic Complexity   1
+    Maintainability (MI)    65
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-0FFFE   740  64792  
+10000-1FFFE     0  65536  
+
+
+

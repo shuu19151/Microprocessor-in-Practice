@@ -1,0 +1,27 @@
+ÀÄbai_415_dem_giay_t3
+   ÃÄMAIN  0/214  Ram=0
+   ³  ÃÄ@cinit1  (Inline)  Ram=0
+   ³  ÃÄset_up_port  0/124  Ram=0
+   ³  ³  ÀÄxoa_tat_ca_cac_module  0/32  Ram=0
+   ³  ³     ÃÄxuat_rbdc  0/22  Ram=0
+   ³  ³     ³  ÀÄxuat_1word  0/28  Ram=4
+   ³  ³     ÃÄxuat_glcd  0/44  Ram=3
+   ³  ³     ÃÄxuat_lcd  0/44  Ram=3
+   ³  ³     ÃÄxuat_3led_matran  0/52  Ram=0
+   ³  ³     ³  ÃÄxuat_1word  0/28  Ram=4
+   ³  ³     ³  ÃÄxuat_1word  0/28  Ram=4
+   ³  ³     ³  ÃÄxuat_1word  0/28  Ram=4
+   ³  ³     ³  ÀÄxuat_1word  0/28  Ram=4
+   ³  ³     ÃÄxuat_8led_7doan  0/56  Ram=2
+   ³  ³     ÀÄxuat_32led_don_2word  0/32  Ram=4
+   ³  ³        ÃÄxuat_1word  0/28  Ram=4
+   ³  ³        ÀÄxuat_1word  0/28  Ram=4
+   ³  ÀÄh415_dem_giay_timer3  0/46  Ram=0
+   ³     ÃÄgiaima_bin_2so_vitri_vn  0/124  Ram=6
+   ³     ³  ÃÄ@DIV88  0/40  Ram=3
+   ³     ³  ÃÄ@const725  0/36  Ram=0
+   ³     ³  ÃÄ@DIV88  0/40  Ram=3
+   ³     ³  ÃÄ@DIV88  0/40  Ram=3
+   ³     ³  ÀÄ@const725  0/36  Ram=0
+   ³     ÀÄxuat_8led_7doan  0/56  Ram=2
+   ÀÄtimer3_ct_con_ngat  0/16  Ram=0

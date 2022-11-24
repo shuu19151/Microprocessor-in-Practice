@@ -1,0 +1,47 @@
+[PROJECT]
+Target=bai_601_lm35a_lcd_7doan_den_buz_bt3.hex
+Processor_Text=PIC18F6722
+CCSVersion=5.025
+Compiler=PCH
+[Target Data]
+FileList=bai_601_lm35a_lcd_7doan_den_buz_bt3.c
+[bai_601_lm35a_lcd_7doan_den_buz_bt3.c]
+Type=4
+[mru-list]
+1=bai_601_lm35a_lcd_7doan_den_buz_bt3.c
+
+[ProjectLog]
+Days=2
+D1=16-11-2022
+D1_L=8
+D1_L1=[30168]Stopped Editing.
+D1_L2=[30694]Started Editing.
+D1_L3=[30994]Stopped Editing.
+D1_L4=[31012]Started Editing.
+D1_L5=[31388]Stopped Editing.
+D1_L6=[31518]Started Editing.
+D1_L7=[31818]Stopped Editing.
+D1_L8=[32051]Project Closed.
+D2=23-11-2022
+D2_L=4
+D2_L1=[37371]Project Opened.
+D2_L2=[38146]Started Editing.
+D2_L3=[38156]Stopped Editing.
+TotalEdit=1
+TotalDebug=0
+D2_E=1
+D2_D=0
+D2_L4=[38156]Project Closed.
+
+[Opened Files]
+1=test1_24th_10_2022.c
+2=bai_509_lcd_8l7d_dem_sp_t0_ud.c
+3=bai_501_lcd_ht_4hang.c
+4=bai_507_lcd_mtp4x4_buzzer_on_off.c
+5=bai_601_lm35a_lcd_7doan_den_buz_bt3.c
+6=bai_613_hcsr_04_lcd_do_kcach.c
+7=Test1_23rd_11_2022.c
+8=
+[Units]
+Count=1
+1=bai_601_lm35a_lcd_7doan_den_buz_bt3 (main)

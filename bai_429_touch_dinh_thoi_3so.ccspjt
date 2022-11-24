@@ -1,0 +1,20 @@
+[PROJECT]
+Target=bai_429_touch_dinh_thoi_3so.hex
+Processor_Text=PIC18F6722
+CCSVersion=5.025
+Compiler=PCH
+[Target Data]
+FileList=bai_429_touch_dinh_thoi_3so.c
+[bai_429_touch_dinh_thoi_3so.c]
+Type=4
+[mru-list]
+1=bai_429_touch_dinh_thoi_3so.c
+[Units]
+Count=1
+1=bai_429_touch_dinh_thoi_3so (main)
+
+[ProjectLog]
+Days=1
+D1=19-10-2022
+D1_L=1
+D1_L1=[39339]Project Closed.

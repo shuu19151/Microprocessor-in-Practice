@@ -1,0 +1,55 @@
+[PROJECT]
+Target=Test2_23rd_11_2022.hex
+Processor_Text=PIC18F6722
+CCSVersion=5.109
+Compiler=PCH
+[Target Data]
+FileList=Test2_23rd_11_2022.c
+[Test2_23rd_11_2022.c]
+Type=4
+[mru-list]
+1=Test2_23rd_11_2022.c
+
+[Opened Files]
+1=Test2_23rd_11_2022.c
+2=bai_509_lcd_8l7d_dem_sp_t0_ud.c
+3=bai_501_lcd_ht_4hang.c
+4=bai_507_lcd_mtp4x4_buzzer_on_off.c
+5=bai_601_lm35a_lcd_7doan_den_buz_bt3.c
+6=bai_613_hcsr_04_lcd_do_kcach.c
+7=Test2_23rd_11_2022.c
+8=
+t1=1
+Count=1
+
+[ProjectLog]
+Days=2
+D1=23-11-2022
+D1_L=2
+D1_L1=[42255]Stopped Editing.
+TotalEdit=4
+TotalDebug=0
+D1_E=4
+D1_D=0
+D1_L2=[42420]Project Closed.
+D2=24-11-2022
+D2_L=10
+D2_L1=[58131]Project Opened.
+D2_L2=[58141]Project Closed.
+D2_L3=[58317]Project Opened.
+D2_L4=[58353]Project Closed.
+D2_L5=[58722]Project Opened.
+D2_L6=[58724]Project Closed.
+D2_L7=[58728]Project Opened.
+D2_L8=[58736]Project Closed.
+D2_L9=[58958]Project Opened.
+D2_L10=[69023]Project Closed.
+
+[fileformats]
+forcecoff=0
+[Units]
+Count=1
+1=Test2_23rd_11_2022 (main)
+
+[defines]
+buildcount=1

@@ -1,0 +1,18 @@
+>>> Warning 230 "C:\Tri\HK 1 nam 4\TT micro\Project\tv_05_18f6722_lcd.c" Line 243(1,1): String truncated
+>>> Warning 230 "C:\Tri\HK 1 nam 4\TT micro\Project\tv_05_18f6722_lcd.c" Line 262(1,1): String truncated
+>>> Warning 230 "C:\Tri\HK 1 nam 4\TT micro\Project\tv_05_18f6722_lcd.c" Line 263(1,1): String truncated
+>>> Warning 230 "C:\Tri\HK 1 nam 4\TT micro\Project\tv_05_18f6722_lcd.c" Line 285(1,1): String truncated
+>>> Warning 230 "C:\Tri\HK 1 nam 4\TT micro\Project\tv_05_18f6722_lcd.c" Line 288(1,1): String truncated
+>>> Warning 230 "C:\Tri\HK 1 nam 4\TT micro\Project\tv_05_18f6722_lcd.c" Line 289(1,1): String truncated
+>>> Warning 230 "C:\Tri\HK 1 nam 4\TT micro\Project\tv_05_18f6722_lcd.c" Line 310(1,1): String truncated
+>>> Warning 230 "C:\Tri\HK 1 nam 4\TT micro\Project\tv_05_18f6722_lcd.c" Line 313(1,1): String truncated
+>>> Warning 230 "C:\Tri\HK 1 nam 4\TT micro\Project\tv_05_18f6722_lcd.c" Line 316(1,1): String truncated
+>>> Warning 230 "C:\Tri\HK 1 nam 4\TT micro\Project\tv_05_18f6722_lcd.c" Line 317(1,1): String truncated
+*** Error 12 "test_19th_10_2022.c" Line 7(22,23): Undefined identifier  -- b308_32led_std_pst
+*** Error 12 "test_19th_10_2022.c" Line 49(24,25): Undefined identifier  -- hienthi_led_7d
+*** Error 12 "test_19th_10_2022.c" Line 57(24,25): Undefined identifier  -- hienthi_led_7d
+*** Error 51 "test_19th_10_2022.c" Line 66(7,18): A numeric expression must appear here
+*** Error 12 "test_19th_10_2022.c" Line 70(24,25): Undefined identifier  -- hienthi_led_7d
+*** Error 12 "test_19th_10_2022.c" Line 81(21,22): Undefined identifier  -- hienthi_led_7d
+      6 Errors,  10 Warnings.
+Build Failed.

@@ -1,0 +1,85 @@
+
+ROM used:   1688/131072 (1%)
+            1688/131072 (1%) including unused fragments
+
+            0.3 Average locations per line
+            1.5 Average locations per statement
+
+RAM used:   60/3936 (2%) at main() level
+            87/3936 (2%) worst case
+
+Stack used: 3 worst case (3 in main + 0 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  119    69   6  bai_310_32led_tong_hop.c
+   24     0   0  tv_kit_vdk_18f6722_all.c
+  133     0   0  tv_01_18f6722_define.c
+  912     0   0  ..\..\..\..\Program Files (x86)\PICC\Devices\18f6722.h
+  430   105   9  tv_02_18f6722_mbi.c
+  385   148  13  tv_03_18f6722_key.c
+ 2229   257  23  ..\..\..\..\Program Files (x86)\PICC\Drivers\math.h
+  154    63   6  tv_04_18f6722_8led_7doan.c
+  422   199  18  tv_05_18f6722_lcd.c
+  127    45   4  tv_05_i2c_ds13_pcf.c
+   55    23   2  tv_06_18f6722_adc.c
+   49    27   2  tv_09_i2c_at24cxx.c
+   80    40   4  tv_ds18b20.c
+  230    54   5  ..\..\..\..\Program Files (x86)\PICC\Drivers\touch.c
+   64    35   3  tv_dht11.c
+   40    38   3  tv_rotary_encoder.c
+   30    18   2  tv_HX711.c
+----- -----
+ 5483  1121 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     38   1    1             @delay_ms1
+0    124   4    0    629  2.4  set_up_port
+0     28   1    4     57  1.6  xuat_1word
+0     22   1    0     48  1.1  xuat_rbdc
+0     44   1    3    106  2.1  xuat_lcd
+0     44   1    3    106  2.1  xuat_glcd
+0     52   2    0    152  1.8  xuat_3led_matran
+0     58   2    2    162  4.4  xuat_8led_7doan
+0     30   1    4    104  2.0  xuat_32led_don_2word
+0     32   1    0    121  1.7  xoa_tat_ca_cac_module
+0     36   1    9    120  2.8  xuat_32led_don_1dw
+0     50   1    4    160  1.8  xuat_32led_don_4byte
+0      2   0    0             @const1134
+0     10   0    0             @const1217
+0     22   1    0             @const1219
+0     72   2    3    149  1.8  b303_32led_chop_tat
+0    170   5    9    592  5.6  b306_32led_std_tnv
+0    104   3    9    345  5.7  b307_32led_std_ttr
+0    172   5   12    412  4.5  b308_32led_std_pst
+0    162   5   12    412  4.5  b309_32led_std_tsp
+0     24   1    3    111  3.7  h310_32led_chop_tat_nlan
+0     26   1    3    111  3.7  h310_32led_std_pst_nlan
+0     26   1    3    111  3.7  h310_32led_std_tsp_nlan
+0     26   1    3    111  3.7  h310_32led_std_tnv_nlan
+0     26   1    3    111  3.7  h310_32led_std_ttr_nlan
+0    284   8    0    288  2.3  MAIN
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               22
+    Statements              1121
+    Comments                1140
+    Volume (V)              8336
+    Difficulty (D)          66.8
+    Effort to implement (E) 556788
+    Time to implement (T)   8 hours, 36 minutes
+    Est Delivered Bugs (B)  2
+    Cyclomatic Complexity   13
+    Maintainability (MI)    27
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-0FFFE  1684  63848  
+10000-1FFFE     0  65536  
+
+
+

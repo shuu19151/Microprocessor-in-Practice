@@ -1,0 +1,46 @@
+[PROJECT]
+Target=bai_507_lcd_mtp4x4_buzzer_on_off.hex
+Processor_Text=PIC18F6722
+CCSVersion=5.025
+Compiler=PCH
+[Target Data]
+FileList=bai_507_lcd_mtp4x4_buzzer_on_off.c
+[bai_507_lcd_mtp4x4_buzzer_on_off.c]
+Type=4
+[mru-list]
+1=bai_507_lcd_mtp4x4_buzzer_on_off.c
+
+[ProjectLog]
+Days=2
+D1=09-11-2022
+D1_L=11
+D1_L1=[37201]Started Editing.
+D1_L2=[37521]Stopped Editing.
+D1_L3=[37989]Started Editing.
+D1_L4=[38839]Stopped Editing.
+D1_L5=[38862]Started Editing.
+D1_L6=[40174]Stopped Editing.
+D1_L7=[40430]Started Editing.
+D1_L8=[40889]Stopped Editing.
+D1_L9=[42027]Started Editing.
+D1_L10=[42312]Stopped Editing.
+TotalEdit=34
+TotalDebug=0
+D1_E=34
+D1_D=0
+D1_L11=[42312]Project Closed.
+D2=16-11-2022
+D2_L=3
+D2_L1=[27495]Project Opened.
+D2_L2=[29307]Started Editing.
+D2_L3=[29544]Project Closed.
+
+[Opened Files]
+1=test1_24th_10_2022.c
+2=bai_509_lcd_8l7d_dem_sp_t0_ud.c
+3=bai_501_lcd_ht_4hang.c
+4=bai_507_lcd_mtp4x4_buzzer_on_off.c
+5=
+[Units]
+Count=1
+1=bai_507_lcd_mtp4x4_buzzer_on_off (main)

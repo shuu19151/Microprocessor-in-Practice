@@ -1,0 +1,57 @@
+ÀÄbai_429_touch_dinh_thoi_3so
+   ÃÄMAIN  0/206  Ram=0
+   ³  ÃÄ@cinit1  (Inline)  Ram=0
+   ³  ÃÄset_up_port  0/124  Ram=0
+   ³  ³  ÀÄxoa_tat_ca_cac_module  0/32  Ram=0
+   ³  ³     ÃÄxuat_rbdc  0/20  Ram=0
+   ³  ³     ³  ÀÄxuat_1word  0/28  Ram=4
+   ³  ³     ÃÄxuat_glcd  0/44  Ram=3
+   ³  ³     ÃÄxuat_lcd  0/44  Ram=3
+   ³  ³     ÃÄxuat_3led_matran  0/52  Ram=0
+   ³  ³     ³  ÃÄxuat_1word  0/28  Ram=4
+   ³  ³     ³  ÃÄxuat_1word  0/28  Ram=4
+   ³  ³     ³  ÃÄxuat_1word  0/28  Ram=4
+   ³  ³     ³  ÀÄxuat_1word  0/28  Ram=4
+   ³  ³     ÃÄxuat_8led_7doan  0/56  Ram=2
+   ³  ³     ÀÄxuat_32led_don_2word  0/30  Ram=4
+   ³  ³        ÃÄxuat_1word  0/28  Ram=4
+   ³  ³        ÀÄxuat_1word  0/28  Ram=4
+   ³  ÀÄb428_dinh_thoi_giay_3so  0/10  Ram=0
+   ³     ÃÄh428_cai_giay_dinh_thoi_3so  0/158  Ram=1
+   ³     ³  ÃÄkey_tip229_cdoi_c2  0/56  Ram=2
+   ³     ³  ³  ÃÄkey_tip229  0/60  Ram=2
+   ³     ³  ³  ÀÄ@delay_ms1  0/38  Ram=1
+   ³     ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³     ³  ÃÄxuat_32led_don_1dw  0/36  Ram=9
+   ³     ³  ³  ÀÄxuat_32led_don_2word  0/30  Ram=4
+   ³     ³  ³     ÀÄ*
+   ³     ³  ÃÄtimer3_xung_noi_on  0/20  Ram=1
+   ³     ³  ÃÄxuat_32led_don_1dw  0/36  Ram=9
+   ³     ³  ³  ÀÄ*
+   ³     ³  ÀÄtimer3_xung_noi_off  0/16  Ram=1
+   ³     ÃÄh428_dem_giay_dinh_thoi_timer3  0/54  Ram=1
+   ³     ³  ÃÄxuat_32led_don_1dw  0/36  Ram=9
+   ³     ³  ³  ÀÄ*
+   ³     ³  ÃÄtimer3_xung_noi_off  0/16  Ram=1
+   ³     ³  ÀÄbuzzer_on_off  0/36  Ram=3
+   ³     ³     ÃÄxuat_rbdc  0/20  Ram=0
+   ³     ³     ³  ÀÄ*
+   ³     ³     ÃÄ@delay_ms1  0/38  Ram=1
+   ³     ³     ÃÄ@delay_ms1  0/38  Ram=1
+   ³     ³     ÀÄxuat_rbdc  0/20  Ram=0
+   ³     ³        ÀÄ*
+   ³     ÀÄh428_hien_thi_dinh_thoi_giay_3so  0/44  Ram=0
+   ³        ÃÄ@const725  0/36  Ram=0
+   ³        ÃÄ@const725  0/36  Ram=0
+   ³        ÃÄ@const725  0/36  Ram=0
+   ³        ÃÄgiaima_bin_3so_vitri_vn  0/284  Ram=8
+   ³        ³  ÃÄ@DIV1616  0/66  Ram=5
+   ³        ³  ÃÄ@const725  0/36  Ram=0
+   ³        ³  ÃÄ@DIV1616  0/66  Ram=5
+   ³        ³  ÃÄ@DIV1616  0/66  Ram=5
+   ³        ³  ÃÄ@const725  0/36  Ram=0
+   ³        ³  ÃÄ@DIV1616  0/66  Ram=5
+   ³        ³  ÃÄ@DIV1616  0/66  Ram=5
+   ³        ³  ÀÄ@const725  0/36  Ram=0
+   ³        ÀÄxuat_8led_7doan  0/56  Ram=2
+   ÀÄtimer3_ct_con_ngat  0/16  Ram=0

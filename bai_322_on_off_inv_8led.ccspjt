@@ -1,0 +1,33 @@
+[PROJECT]
+Target=bai_322_on_off_inv_8led.hex
+Processor_Text=PIC18F6722
+CCSVersion=5.025
+Compiler=PCH
+[Target Data]
+FileList=bai_322_on_off_inv_8led.c
+[bai_322_on_off_inv_8led.c]
+Type=4
+[mru-list]
+1=bai_322_on_off_inv_8led.c
+
+[ProjectLog]
+Days=1
+D1=07-09-2022
+D1_L=6
+D1_L1=[28606]Started Editing.
+D1_L2=[28726]Project Closed.
+D1_L3=[30799]Project Opened.
+D1_L4=[30820]Started Editing.
+D1_L5=[31155]Stopped Editing.
+TotalEdit=1
+TotalDebug=0
+D1_E=1
+D1_D=0
+D1_L6=[33257]Project Closed.
+
+[Opened Files]
+1=bai_322_on_off_inv_8led.c
+2=
+[Units]
+Count=1
+1=bai_322_on_off_inv_8led (main)

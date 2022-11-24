@@ -1,0 +1,45 @@
+[PROJECT]
+Target=test_19th_10_2022.hex
+Processor_Text=PIC18F6722
+CCSVersion=5.025
+Compiler=PCH
+[Target Data]
+FileList=test_19th_10_2022.c
+[test_19th_10_2022.c]
+Type=4
+[mru-list]
+1=test_19th_10_2022.c
+
+[Opened Files]
+1=bai_428_touch_dinh_thoi_2so.c
+2=test_19th_10_2022.c
+3=hiep.c
+4=tv_05_18f6722_lcd.c
+5=
+
+[ProjectLog]
+Days=2
+D1=24-10-2022
+D1_L=11
+D1_L1=[58784]Stopped Editing.
+D1_L2=[58829]Started Editing.
+D1_L3=[58833]Project Closed.
+D1_L4=[59145]Project Opened.
+D1_L5=[59185]Started Editing.
+D1_L6=[59852]Stopped Editing.
+TotalEdit=13
+TotalDebug=0
+D1_E=13
+D1_D=0
+D1_L7=[60224]Started Editing.
+D1_L8=[60567]Stopped Editing.
+D1_L9=[61666]Project Closed.
+D1_L10=[75032]Project Opened.
+D1_L11=[80060]Project Closed.
+D2=25-10-2022
+D2_L=2
+D2_L1=[64250]Project Opened.
+D2_L2=[64278]Project Closed.
+[Units]
+Count=1
+1=test_19th_10_2022 (main)

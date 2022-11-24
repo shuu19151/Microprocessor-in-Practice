@@ -1,0 +1,89 @@
+ÀÄbai_601_lm35a_lcd_7doan_den_buz_bt3
+   ÀÄMAIN  0/262  Ram=0
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄset_up_port  0/124  Ram=0
+      ³  ÀÄxoa_tat_ca_cac_module  0/32  Ram=0
+      ³     ÃÄxuat_rbdc  0/22  Ram=0
+      ³     ³  ÀÄxuat_1word  0/28  Ram=4
+      ³     ÃÄxuat_glcd  0/44  Ram=3
+      ³     ÃÄxuat_lcd  0/42  Ram=3
+      ³     ÃÄxuat_3led_matran  0/52  Ram=0
+      ³     ³  ÃÄxuat_1word  0/28  Ram=4
+      ³     ³  ÃÄxuat_1word  0/28  Ram=4
+      ³     ³  ÃÄxuat_1word  0/28  Ram=4
+      ³     ³  ÀÄxuat_1word  0/28  Ram=4
+      ³     ÃÄxuat_8led_7doan  0/56  Ram=2
+      ³     ÀÄxuat_32led_don_2word  0/32  Ram=4
+      ³        ÃÄxuat_1word  0/28  Ram=4
+      ³        ÀÄxuat_1word  0/28  Ram=4
+      ÃÄlcd_setup  0/72  Ram=0
+      ³  ÃÄlcd_command  0/10  Ram=1
+      ³  ³  ÀÄlcd_xuat_8bit  0/38  Ram=1
+      ³  ³     ÃÄxuat_lcd  0/42  Ram=3
+      ³  ³     ÀÄxuat_lcd  0/42  Ram=3
+      ³  ÃÄlcd_command  0/10  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_command  0/10  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄ@delay_ms1  0/38  Ram=1
+      ³  ÀÄlcd_command  0/10  Ram=1
+      ³     ÀÄ*
+      ÃÄlcd_khoi_tao_cgram_so_to  0/34  Ram=2
+      ³  ÃÄlcd_command  0/10  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄ@const1030  0/84  Ram=0
+      ³  ÀÄlcd_data  0/10  Ram=1
+      ³     ÀÄlcd_xuat_8bit  0/38  Ram=1
+      ³        ÀÄ*
+      ÃÄlcd_goto_xy  0/16  Ram=3
+      ³  ÃÄ@const1020  0/24  Ram=0
+      ³  ÀÄlcd_command  0/10  Ram=1
+      ³     ÀÄ*
+      ÃÄ@PSTRINGC_1013  0/40  Ram=3
+      ³  ÀÄlcd_data  0/10  Ram=1
+      ³     ÀÄ*
+      ÃÄh601_adc_lm35a_doc_xuly  0/114  Ram=5
+      ³  ÃÄh601_adc_read  0/200  Ram=7
+      ³  ³  ÃÄ@ITOF  0/54  Ram=2
+      ³  ³  ÃÄ@ADDFF  0/618  Ram=16
+      ³  ³  ÃÄ@ITOF  0/54  Ram=2
+      ³  ³  ÀÄ@DIVFF  0/346  Ram=14
+      ³  ÃÄ@DIVFF  0/346  Ram=14
+      ³  ÀÄfloat_to_ng_2so_tp  0/220  Ram=4
+      ³     ÃÄ@DIVFF  0/346  Ram=14
+      ³     ÃÄ@SFTOI  0/56  Ram=4
+      ³     ÃÄ@ITOF  0/54  Ram=2
+      ³     ÃÄ@ADDFF  0/618  Ram=16
+      ³     ÃÄ@MULFF  0/244  Ram=11
+      ³     ÃÄ@DIVFF  0/346  Ram=14
+      ³     ÀÄ@SFTOI  0/56  Ram=4
+      ÃÄhienthi_lcd  0/248  Ram=6
+      ³  ÃÄlcd_goto_xy  0/16  Ram=3
+      ³  ³  ÀÄ*
+      ³  ÃÄ@PSTRINGC_1013  0/40  Ram=3
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_goto_xy  0/16  Ram=3
+      ³  ³  ÀÄ*
+      ³  ÃÄ@DIV1616  0/66  Ram=5
+      ³  ÃÄlcd_data  0/10  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄ@DIV1616  0/66  Ram=5
+      ³  ÃÄlcd_data  0/10  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_goto_xy  0/16  Ram=3
+      ³  ³  ÀÄ*
+      ³  ÃÄ@DIV1616  0/66  Ram=5
+      ³  ÃÄlcd_data  0/10  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄ@DIV1616  0/66  Ram=5
+      ³  ÀÄlcd_data  0/10  Ram=1
+      ³     ÀÄ*
+      ÃÄh601_adc_lm35a_ht_7doan  0/24  Ram=2
+      ³  ÃÄgiaima_bin_2so_vitri_vn  0/128  Ram=6
+      ³  ³  ÃÄ@DIV88  0/40  Ram=3
+      ³  ³  ÃÄ@const725  0/36  Ram=0
+      ³  ³  ÃÄ@DIV88  0/40  Ram=3
+      ³  ³  ÃÄ@DIV88  0/40  Ram=3
+      ³  ³  ÀÄ@const725  0/36  Ram=0
+      ³  ÀÄxuat_8led_7doan  0/56  Ram=2
+      ÀÄ@delay_ms1  0/38  Ram=1

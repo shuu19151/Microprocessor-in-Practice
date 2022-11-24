@@ -1,0 +1,37 @@
+#include <tv_kit_vdk_18f6722_all.c>
+unsigned int16 lm35a_ng,lm35a_tp,lm35a_ngt=0;
+void h601_adc_lm35a_doc_xuly(usi8 slan) 
+{ 
+    float lm35a; 
+    lm35a=h601_adc_read(slan,chan_lm35a);
+    lm35a = lm35a/2.046;
+    float_to_ng_2so_tp(lm35a); 
+    lm35a_ng = so_ng;
+    lm35a_tp = so_tp;
+}
+
+void h601_adc_lm35a_ht_7doan(usi8 z,int1 ht_l7d) 
+{ 
+    if(ht_l7d) 
+    { 
+        giaima_bin_2so_vitri_vn(lm35a_ng,z,kx_vn);
+        xuat_8led_7doan();
+    } 
+}
+
+void main()
+{ 
+    set_up_port();
+    lcd_setup();
+    lcd_khoi_tao_cgram_so_to();
+ 
+    lcd_goto_xy(0,0); 
+    lcd_data("LM35A");
+    while(true)
+    {
+        h601_adc_lm35a_doc_xuly(solan);
+        h601_adc_lm35a_ht_7doan(6,1);
+        delay_ms(200);
+    } 
+}
+

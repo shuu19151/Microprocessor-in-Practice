@@ -1,0 +1,217 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004-005 rbdc
+004.0   step_motor_enable
+004.1   ms1
+004.2   ms2
+004.3   ms3
+004.4   step
+004.5   dir
+004.6   servo1
+004.7   step_motor_in1
+005.0   step_motor_in2
+005.1   step_motor_in3
+005.2   step_motor_in4
+005.3   triac_1
+005.4   triac_2
+005.5   buzzer
+005.6   relay_1
+005.7   relay_2
+006-00D wlmt
+00E-015 led_7d
+016     dl_tip
+017-018 dl_btn
+019-020 bcd_8led
+021     lcd_ctrl
+021.0   lcd_e
+021.1   lcd_rw
+021.2   lcd_rs
+021.3   lcd_p
+022-02A time_w
+02B-033 time_r
+034.0   ttqn
+035-036 so_ng
+037-038 so_tp
+039     rti
+03A     vt_tr
+03B     vt_ht
+03C     xuat_lcd.ctrl
+03C     h310_32led_std_ttr_nlan.n
+03C     xuat_glcd.ctrl
+03C     h310_32led_std_pst_nlan.n
+03C-03F atan2.y
+03C     h310_32led_chop_tat_nlan.n
+03C     xuat_8led_7doan.i
+03C-03F @SPI_XFER_1_32.P1
+03C     h310_32led_std_tsp_nlan.n
+03C     h310_32led_std_tnv_nlan.n
+03D-03E h310_32led_std_ttr_nlan.dl
+03D-03E h310_32led_std_tnv_nlan.dl
+03D-03E h310_32led_std_tsp_nlan.dl
+03D-03E h310_32led_std_pst_nlan.dl
+03D-03E h310_32led_chop_tat_nlan.dl
+03D     xuat_glcd.db
+03D     xuat_lcd.db
+03D     xuat_8led_7doan.@SCRATCH1
+03E     xuat_lcd.@SCRATCH1
+03E     xuat_glcd.@SCRATCH1
+03F     h310_32led_std_ttr_nlan.j
+03F     h310_32led_std_pst_nlan.j
+03F     h310_32led_std_tnv_nlan.j
+03F     h310_32led_std_tsp_nlan.j
+03F     h310_32led_chop_tat_nlan.j
+040-043 atan2.x
+040-041 b307_32led_std_ttr.dl
+040-041 b306_32led_std_tnv.dl
+040-041 b309_32led_std_tsp.dl
+040-041 b303_32led_chop_tat.dl
+040-041 b308_32led_std_pst.dl
+042     b309_32led_std_tsp.i
+042     xuat_32led_don_4byte.bld3
+042     b307_32led_std_ttr.i
+042     b308_32led_std_pst.i
+042     b306_32led_std_tnv.i
+042     b303_32led_chop_tat.@SCRATCH1
+043-046 b308_32led_std_pst.x
+043-044 b307_32led_std_ttr.LT
+043-046 b309_32led_std_tsp.x
+043     xuat_32led_don_4byte.bld2
+043-044 b306_32led_std_tnv.LT
+044     xuat_32led_don_4byte.bld1
+044-047 atan2.z
+045-046 b306_32led_std_tnv.LP
+045     xuat_32led_don_4byte.bld0
+045-046 b307_32led_std_ttr.LP
+047-04A xuat_32led_don_1dw.dwld
+047     b306_32led_std_tnv.@SCRATCH1
+047     b307_32led_std_ttr.@SCRATCH1
+047     b308_32led_std_pst.@SCRATCH1
+047     b309_32led_std_tsp.@SCRATCH1
+048     @delay_ms1.P1
+048.0   atan2.sign
+048     b306_32led_std_tnv.@SCRATCH2
+048     b307_32led_std_ttr.@SCRATCH2
+048     b308_32led_std_pst.@SCRATCH2
+048     b309_32led_std_tsp.@SCRATCH2
+049     atan2.quad
+049     b308_32led_std_pst.@SCRATCH3
+049     b309_32led_std_tsp.@SCRATCH3
+04A     b308_32led_std_pst.@SCRATCH4
+04A     b309_32led_std_tsp.@SCRATCH4
+04B-04C xuat_32led_don_1dw.wd1
+04B     b308_32led_std_pst.@SCRATCH5
+04B     b309_32led_std_tsp.@SCRATCH5
+04D-04E xuat_32led_don_1dw.wd0
+04F-050 xuat_32led_don_2word.wld1
+04F     xuat_32led_don_1dw.@SCRATCH1
+051-052 xuat_32led_don_2word.wld0
+053-054 xuat_1word.x
+055     xuat_1word.@SCRATCH1
+056     xuat_1word.@SCRATCH2
+F71     CCP_5_LOW
+F71     CCP_5
+F72     CCP_5_HIGH
+F74     CCP_4_LOW
+F74     CCP_4
+F75     CCP_4_HIGH
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FB8     CCP_3
+FB8     CCP_3_LOW
+FB9     CCP_3_HIGH
+FBB     CCP_2
+FBB     CCP_2_LOW
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @WRITE_PACKED_MEMORY.P1
+FE1-FE2 @READ_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PACKED_MEMORY.P1
+FE9-FEA @READ_PROGRAM_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P3
+FE9-FEA @READ_PACKED_MEMORY.P4
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000004  @const1134.call
+000006  @const1217.call
+000010  @const1219.call
+000026  xuat_1word
+000042  xuat_rbdc
+000058  xuat_glcd
+000084  xuat_lcd
+0000B0  xuat_3led_matran
+0000E4  xuat_8led_7doan
+00011E  xuat_32led_don_2word
+00013C  xoa_tat_ca_cac_module
+00015C  set_up_port
+0001D8  xuat_32led_don_4byte
+00020A  @delay_ms1
+000230  b303_32led_chop_tat
+000278  h310_32led_chop_tat_nlan
+000290  xuat_32led_don_1dw
+0002B4  b308_32led_std_pst
+000360  h310_32led_std_pst_nlan
+00037A  b309_32led_std_tsp
+00041C  h310_32led_std_tsp_nlan
+000436  b306_32led_std_tnv
+0004E0  h310_32led_std_tnv_nlan
+0004FA  b307_32led_std_ttr
+000562  h310_32led_std_ttr_nlan
+00057C  MAIN
+00057C  @cinit1
+0005D0  @cinit2
+
+Project Directory:
+    C:\Tri\HK 1 nam 4\TT micro\Project\
+
+Project Files:
+    bai_310_32led_tong_hop.c                                [07-Sep-22 08:23  CRC=8F4999A8]
+    tv_kit_vdk_18f6722_all.c                                [21-Feb-21 21:13  CRC=5D4EC53A]
+    tv_01_18f6722_define.c                                  [21-Feb-21 16:52  CRC=DDFEFEAB]
+    ..\..\..\..\Program Files (x86)\PICC\Devices\18f6722.h  [18-Apr-14 16:57  CRC=BA4D6F76]
+    tv_02_18f6722_mbi.c                                     [19-Feb-21 08:11  CRC=CB47246C]
+    tv_03_18f6722_key.c                                     [19-Feb-21 08:51  CRC=9F3F53C3]
+    ..\..\..\..\Program Files (x86)\PICC\Drivers\math.h     [28-Sep-12 11:35  CRC=546412C9]
+    tv_04_18f6722_8led_7doan.c                              [19-Feb-21 09:12  CRC=ADC592F4]
+    tv_05_18f6722_lcd.c                                     [20-Feb-21 09:55  CRC=8C8B9106]
+    tv_05_i2c_ds13_pcf.c                                    [16-Feb-21 15:32  CRC=40082E6B]
+    tv_06_18f6722_adc.c                                     [18-Jan-21 20:14  CRC=315B9BE6]
+    tv_09_i2c_at24cxx.c                                     [07-Feb-21 14:31  CRC=63419B07]
+    tv_ds18b20.c                                            [16-Nov-20 15:09  CRC=468E92AC]
+    ..\..\..\..\Program Files (x86)\PICC\Drivers\touch.c    [02-Mar-10 13:04  CRC=24D0ECE7]
+    tv_dht11.c                                              [19-Feb-21 19:56  CRC=B4A79F17]
+    tv_rotary_encoder.c                                     [21-Dec-20 11:19  CRC=C166F832]
+    tv_HX711.c                                              [01-Jan-21 20:09  CRC=2B32E769]
+
+Source signature=8A99C6FB
+
+Units:
+    bai_310_32led_tong_hop (main)
+
+Compiler Settings:
+    Processor:      PIC18F6722
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:       CCS5
+
+Output Files:
+    XREF file:   bai_310_32led_tong_hop.xsym
+    Errors:      bai_310_32led_tong_hop.err
+    Ext Symbols: bai_310_32led_tong_hop.esym
+    INHX32:      bai_310_32led_tong_hop.hex
+    Symbols:     bai_310_32led_tong_hop.sym
+    List:        bai_310_32led_tong_hop.lst
+    Debug/COFF:  bai_310_32led_tong_hop.cof
+    Project:     bai_310_32led_tong_hop.ccspjt
+    Call Tree:   bai_310_32led_tong_hop.tre
+    Statistics:  bai_310_32led_tong_hop.STA

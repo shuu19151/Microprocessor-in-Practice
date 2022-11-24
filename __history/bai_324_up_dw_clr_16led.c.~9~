@@ -1,0 +1,26 @@
+#include <tv_kit_vdk_18f6722_all.c>
+unsigned int16 y;
+void up_bt(){
+   if(!input(up)){
+   while(!input(up)){}
+   y = (y << 1) + 1;
+   xuat_32led_don_2word(y,0);
+   }
+}
+
+void down_bt(){
+   
+}
+
+void clr_bt(){
+   
+}
+
+void main(){
+   set_up_port();
+   while(true){
+      up_bt();
+      down_bt();
+      clr_bt();
+   }
+}

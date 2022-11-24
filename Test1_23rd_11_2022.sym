@@ -1,0 +1,255 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004-005 rbdc
+004.0   step_motor_enable
+004.1   ms1
+004.2   ms2
+004.3   ms3
+004.4   step
+004.5   dir
+004.6   servo1
+004.7   step_motor_in1
+005.0   step_motor_in2
+005.1   step_motor_in3
+005.2   step_motor_in4
+005.3   triac_1
+005.4   triac_2
+005.5   buzzer
+005.6   relay_1
+005.7   relay_2
+006-00D wlmt
+00E-015 led_7d
+016     dl_tip
+017-018 dl_btn
+019-020 bcd_8led
+021.0   lcd_e
+021     lcd_ctrl
+021.1   lcd_rw
+021.2   lcd_rs
+021.3   lcd_p
+022-02A time_w
+02B-033 time_r
+034.0   ttqn
+035-036 so_ng
+037-038 so_tp
+039     rti
+03A     vt_tr
+03B     vt_ht
+03C-03D lm35a_ng
+03E-03F lm35a_tp
+040-041 lm35a_ngt
+042-043 gtmin
+044-045 gtmax
+046-047 xuat_32led_don_2word.wld1
+046     xuat_glcd.ctrl
+046     doc_value_lm35.slan
+046     phim_bt1_c1.ktnp
+046-049 @SPI_XFER_1_32.P1
+046-049 atan2.y
+046     hienthi_lcd.x
+046     phim_bt0_c1.ktnp
+046     xuat_8led_7doan.i
+046     hienthi_nhietdo.@SCRATCH1
+046     test_phim_up.@SCRATCH1
+046     test_phim_dw.@SCRATCH1
+047-048 phim_bt1_c1.dl
+047-04A doc_value_lm35.lm35a
+047     xuat_glcd.db
+047-048 phim_bt0_c1.dl
+047     hienthi_lcd.y
+047     xuat_8led_7doan.@SCRATCH1
+047     hienthi_nhietdo.@SCRATCH2
+048     hienthi_lcd.ht_ng
+048-049 xuat_32led_don_2word.wld0
+048     xuat_glcd.@SCRATCH1
+049     hienthi_lcd.ht_tp
+049     phim_bt0_c1.@SCRATCH1
+049     phim_bt1_c1.@SCRATCH1
+04A-04B @DIV1616.P1
+04A-04D atan2.x
+04A     @delay_ms1.P1
+04A-04B xuat_1word.x
+04A     @PSTRINGC_1013.@SCRATCH1
+04A     hienthi_lcd.@SCRATCH1
+04B     xuat_32led_don_4byte.bld3
+04B     h601_adc_read.solan
+04B-04E @FLT.P1
+04B-04E float_to_ng_2so_tp.st
+04B     lcd_goto_xy.x
+04B     @PSTRINGC_1013.@SCRATCH2
+04B     hienthi_lcd.@SCRATCH2
+04C-04D @DIV1616.P1
+04C     xuat_32led_don_4byte.bld2
+04C     lcd_goto_xy.y
+04C     h601_adc_read.chan
+04C     xuat_1word.@SCRATCH1
+04C     @PSTRINGC_1013.@SCRATCH3
+04D     lcd_data.db
+04D-050 h601_adc_read.kq_adc
+04D     xuat_32led_don_4byte.bld1
+04D     xuat_1word.@SCRATCH2
+04D     lcd_goto_xy.@SCRATCH1
+04E     lcd_command.db
+04E-051 atan2.z
+04E     xuat_32led_don_4byte.bld0
+04E     @DIV1616.@SCRATCH1
+04F-052 @FLT.P1
+04F-052 @MULFF.P2
+04F-052 @SFTOI.P3
+04F     lcd_xuat_8bit.db
+050     xuat_lcd.ctrl
+051     h601_adc_read.i
+051     xuat_lcd.db
+052-055 @DIVFF.P1
+052-055 @ADDFF.P2
+052.0   atan2.sign
+052-053 @ITOF.P1
+052     xuat_lcd.@SCRATCH1
+053     atan2.quad
+053-056 @MULFF.P1
+053     @FLT.@SCRATCH1
+054     @FLT.@SCRATCH2
+056-059 @ADDFF.P1
+056-059 @DIVFF.P2
+057     @MULFF.@SCRATCH1
+058     @MULFF.@SCRATCH2
+059     @MULFF.@SCRATCH3
+05A     @ADDFF.@SCRATCH1
+05A     @DIVFF.@SCRATCH1
+05B     @ADDFF.@SCRATCH2
+05B     @DIVFF.@SCRATCH2
+05C     @ADDFF.@SCRATCH3
+05C     @DIVFF.@SCRATCH3
+05D     @ADDFF.@SCRATCH4
+05D     @DIVFF.@SCRATCH4
+05E     @ADDFF.@SCRATCH5
+05E     @DIVFF.@SCRATCH5
+05F     @ADDFF.@SCRATCH6
+05F     @DIVFF.@SCRATCH6
+060     @ADDFF.@SCRATCH7
+061     @ADDFF.@SCRATCH8
+F71     CCP_5_LOW
+F71     CCP_5
+F72     CCP_5_HIGH
+F74     CCP_4
+F74     CCP_4_LOW
+F75     CCP_4_HIGH
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FB8     CCP_3
+FB8     CCP_3_LOW
+FB9     CCP_3_HIGH
+FBB     CCP_2_LOW
+FBB     CCP_2
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PACKED_MEMORY.P1
+FE9-FEA @READ_PROGRAM_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P3
+FE9-FEA @READ_PACKED_MEMORY.P4
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000004  lcd_vitri.call
+000018  lcd_vitri.data
+00001C  @const1134.call
+00001E  @const1217.call
+000028  @const1219.call
+00003E  @const1239.call
+00004E  @const1240.call
+000056  @const1241.call
+00005E  @const1251.call
+000060  xuat_1word
+00007C  xuat_rbdc
+000092  xuat_glcd
+0000BE  xuat_lcd
+0000E8  xuat_3led_matran
+00011C  xuat_8led_7doan
+000156  xuat_32led_don_2word
+000176  xoa_tat_ca_cac_module
+000196  set_up_port
+000212  lcd_xuat_8bit
+000238  lcd_command
+000242  @delay_ms1
+000268  lcd_setup
+0002B0  lcd_goto_xy
+0002C0  lcd_data
+0002CA  @PSTRINGC_1013
+0002F2  hienthi_thongtin
+000336  @ITOF
+00036C  @ADDFF
+0005D6  @DIVFF
+000730  h601_adc_read
+0007F8  @SFTOI
+000830  @MULFF
+000924  float_to_ng_2so_tp
+000A00  @FLT
+000A76  xuat_32led_don_4byte
+000AA8  doc_value_lm35
+000BFE  phim_bt0_c1
+000C4C  @DIV1616
+000C8E  hienthi_nhietdo
+000D60  test_phim_up
+000D8A  phim_bt1_c1
+000DD8  test_phim_dw
+000E02  hienthi_lcd
+000F00  MAIN
+000F00  @cinit1
+000F62  @cinit2
+
+Project Directory:
+    C:\Tri\HK 1 nam 4\TT micro\Project\
+
+Project Files:
+    Test1_23rd_11_2022.c                                    [23-Nov-22 11:22  CRC=C3BCB875]
+    tv_kit_vdk_18f6722_all.c                                [21-Feb-21 21:13  CRC=5D4EC53A]
+    tv_01_18f6722_define.c                                  [21-Feb-21 16:52  CRC=DDFEFEAB]
+    ..\..\..\..\Program Files (x86)\PICC\Devices\18f6722.h  [18-Apr-14 16:57  CRC=BA4D6F76]
+    tv_02_18f6722_mbi.c                                     [19-Feb-21 08:11  CRC=CB47246C]
+    tv_03_18f6722_key.c                                     [19-Feb-21 08:51  CRC=9F3F53C3]
+    ..\..\..\..\Program Files (x86)\PICC\Drivers\math.h     [28-Sep-12 11:35  CRC=546412C9]
+    tv_04_18f6722_8led_7doan.c                              [19-Feb-21 09:12  CRC=ADC592F4]
+    tv_05_18f6722_lcd.c                                     [20-Feb-21 09:55  CRC=8C8B9106]
+    tv_05_i2c_ds13_pcf.c                                    [16-Feb-21 15:32  CRC=40082E6B]
+    tv_06_18f6722_adc.c                                     [18-Jan-21 20:14  CRC=315B9BE6]
+    tv_09_i2c_at24cxx.c                                     [07-Feb-21 14:31  CRC=63419B07]
+    tv_ds18b20.c                                            [16-Nov-20 15:09  CRC=468E92AC]
+    ..\..\..\..\Program Files (x86)\PICC\Drivers\touch.c    [02-Mar-10 13:04  CRC=24D0ECE7]
+    tv_dht11.c                                              [19-Feb-21 19:56  CRC=B4A79F17]
+    tv_rotary_encoder.c                                     [21-Dec-20 11:19  CRC=C166F832]
+    tv_HX711.c                                              [01-Jan-21 20:09  CRC=2B32E769]
+
+Source signature=BF0CE5C8
+
+Units:
+    Test1_23rd_11_2022 (main)
+
+Compiler Settings:
+    Processor:      PIC18F6722
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:       CCS5
+
+Output Files:
+    XREF file:   Test1_23rd_11_2022.xsym
+    Errors:      Test1_23rd_11_2022.err
+    Ext Symbols: Test1_23rd_11_2022.esym
+    INHX32:      Test1_23rd_11_2022.hex
+    Symbols:     Test1_23rd_11_2022.sym
+    List:        Test1_23rd_11_2022.lst
+    Debug/COFF:  Test1_23rd_11_2022.cof
+    Project:     Test1_23rd_11_2022.ccspjt
+    Call Tree:   Test1_23rd_11_2022.tre
+    Statistics:  Test1_23rd_11_2022.STA

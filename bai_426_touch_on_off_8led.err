@@ -1,0 +1,20 @@
+>>> Warning 230 "C:\Tri\HK 1 nam 4\TT micro\Project\tv_05_18f6722_lcd.c" Line 243(1,1): String truncated
+>>> Warning 230 "C:\Tri\HK 1 nam 4\TT micro\Project\tv_05_18f6722_lcd.c" Line 262(1,1): String truncated
+>>> Warning 230 "C:\Tri\HK 1 nam 4\TT micro\Project\tv_05_18f6722_lcd.c" Line 263(1,1): String truncated
+>>> Warning 230 "C:\Tri\HK 1 nam 4\TT micro\Project\tv_05_18f6722_lcd.c" Line 285(1,1): String truncated
+>>> Warning 230 "C:\Tri\HK 1 nam 4\TT micro\Project\tv_05_18f6722_lcd.c" Line 288(1,1): String truncated
+>>> Warning 230 "C:\Tri\HK 1 nam 4\TT micro\Project\tv_05_18f6722_lcd.c" Line 289(1,1): String truncated
+>>> Warning 230 "C:\Tri\HK 1 nam 4\TT micro\Project\tv_05_18f6722_lcd.c" Line 310(1,1): String truncated
+>>> Warning 230 "C:\Tri\HK 1 nam 4\TT micro\Project\tv_05_18f6722_lcd.c" Line 313(1,1): String truncated
+>>> Warning 230 "C:\Tri\HK 1 nam 4\TT micro\Project\tv_05_18f6722_lcd.c" Line 316(1,1): String truncated
+>>> Warning 230 "C:\Tri\HK 1 nam 4\TT micro\Project\tv_05_18f6722_lcd.c" Line 317(1,1): String truncated
+>>> Warning 202 "bai_426_touch_on_off_8led.c" Line 2(28,30): Variable never used:   p2
+>>> Warning 202 "bai_426_touch_on_off_8led.c" Line 2(36,38): Variable never used:   p3
+>>> Warning 202 "bai_426_touch_on_off_8led.c" Line 2(44,46): Variable never used:   p4
+>>> Warning 202 "bai_426_touch_on_off_8led.c" Line 2(52,54): Variable never used:   p5
+>>> Warning 202 "bai_426_touch_on_off_8led.c" Line 2(60,62): Variable never used:   p6
+>>> Warning 202 "bai_426_touch_on_off_8led.c" Line 2(68,70): Variable never used:   p7
+>>> Warning 202 "bai_426_touch_on_off_8led.c" Line 2(76,78): Variable never used:   p8
+      Memory usage:   ROM=1%      RAM=2% - 2%
+      0 Errors,  17 Warnings.
+Build Successful.

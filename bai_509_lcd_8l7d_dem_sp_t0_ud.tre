@@ -1,0 +1,75 @@
+ÀÄbai_509_lcd_8l7d_dem_sp_t0_ud
+   ÀÄMAIN  0/254  Ram=0
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄset_up_port  0/124  Ram=0
+      ³  ÀÄxoa_tat_ca_cac_module  0/32  Ram=0
+      ³     ÃÄxuat_rbdc  0/22  Ram=0
+      ³     ³  ÀÄxuat_1word  0/28  Ram=4
+      ³     ÃÄxuat_glcd  0/44  Ram=3
+      ³     ÃÄxuat_lcd  0/42  Ram=3
+      ³     ÃÄxuat_3led_matran  0/52  Ram=0
+      ³     ³  ÃÄxuat_1word  0/28  Ram=4
+      ³     ³  ÃÄxuat_1word  0/28  Ram=4
+      ³     ³  ÃÄxuat_1word  0/28  Ram=4
+      ³     ³  ÀÄxuat_1word  0/28  Ram=4
+      ³     ÃÄxuat_8led_7doan  0/56  Ram=2
+      ³     ÀÄxuat_32led_don_2word  0/32  Ram=4
+      ³        ÃÄxuat_1word  0/28  Ram=4
+      ³        ÀÄxuat_1word  0/28  Ram=4
+      ÃÄlcd_setup  0/72  Ram=0
+      ³  ÃÄlcd_command  0/10  Ram=1
+      ³  ³  ÀÄlcd_xuat_8bit  0/38  Ram=1
+      ³  ³     ÃÄxuat_lcd  0/42  Ram=3
+      ³  ³     ÀÄxuat_lcd  0/42  Ram=3
+      ³  ÃÄlcd_command  0/10  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_command  0/10  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄ@delay_ms1  0/38  Ram=1
+      ³  ÀÄlcd_command  0/10  Ram=1
+      ³     ÀÄ*
+      ÃÄlcd_goto_xy  0/16  Ram=3
+      ³  ÃÄ@const1020  0/24  Ram=0
+      ³  ÀÄlcd_command  0/10  Ram=1
+      ³     ÀÄ*
+      ÃÄ@PSTRINGC_1013  0/40  Ram=3
+      ³  ÀÄlcd_data  0/10  Ram=1
+      ³     ÀÄlcd_xuat_8bit  0/38  Ram=1
+      ³        ÀÄ*
+      ÃÄlcd_goto_xy  0/16  Ram=3
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC_1013  0/40  Ram=3
+      ³  ÀÄ*
+      ÃÄb411_dem_sp_t0  0/30  Ram=0
+      ³  ÀÄb411_hienthi_4led7doan  0/28  Ram=0
+      ³     ÃÄgiaima_bin_2so_vitri_vn  0/122  Ram=6
+      ³     ³  ÃÄ@DIV88  0/40  Ram=3
+      ³     ³  ÃÄ@const725  0/36  Ram=0
+      ³     ³  ÃÄ@DIV88  0/40  Ram=3
+      ³     ³  ÃÄ@DIV88  0/40  Ram=3
+      ³     ³  ÀÄ@const725  0/36  Ram=0
+      ³     ÃÄgiaima_bin_2so_vitri_vn  0/122  Ram=6
+      ³     ³  ÀÄ*
+      ³     ÀÄxuat_8led_7doan  0/56  Ram=2
+      ÃÄhienthi_lcd  0/102  Ram=1
+      ³  ÃÄlcd_goto_xy  0/16  Ram=3
+      ³  ³  ÀÄ*
+      ³  ÃÄ@DIV88  0/40  Ram=3
+      ³  ÃÄlcd_data  0/10  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄ@DIV88  0/40  Ram=3
+      ³  ÃÄlcd_data  0/10  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_goto_xy  0/16  Ram=3
+      ³  ³  ÀÄ*
+      ³  ÃÄ@DIV88  0/40  Ram=3
+      ³  ÃÄlcd_data  0/10  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄ@DIV88  0/40  Ram=3
+      ³  ÀÄlcd_data  0/10  Ram=1
+      ³     ÀÄ*
+      ÀÄkt_start_stop  0/34  Ram=1
+         ÃÄphim_bt0_c2  0/60  Ram=2
+         ³  ÀÄ@delay_ms1  0/38  Ram=1
+         ÀÄphim_bt2_c2  0/60  Ram=2
+            ÀÄ@delay_ms1  0/38  Ram=1

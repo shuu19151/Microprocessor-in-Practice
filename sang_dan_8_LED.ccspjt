@@ -1,0 +1,40 @@
+[PROJECT]
+Target=sang_dan_8_LED.hex
+Processor_Text=PIC18F6722
+CCSVersion=5.025
+Compiler=PCH
+[Target Data]
+FileList=sang_dan_8_LED.c
+[sang_dan_8_LED.c]
+Type=4
+[mru-list]
+1=sang_dan_8_LED.c
+
+[ProjectLog]
+Days=1
+D1=31-08-2022
+D1_L=15
+D1_L1=[29776]Stopped Editing.
+D1_L2=[29841]Started Editing.
+D1_L3=[30290]Stopped Editing.
+D1_L4=[30419]Started Editing.
+D1_L5=[31992]Stopped Editing.
+D1_L6=[32070]Started Editing.
+D1_L7=[32606]Stopped Editing.
+D1_L8=[33777]Started Editing.
+D1_L9=[34132]Stopped Editing.
+D1_L10=[34553]Started Editing.
+D1_L11=[35342]Stopped Editing.
+D1_L12=[36347]Started Editing.
+D1_L13=[36872]Stopped Editing.
+D1_L14=[37103]Started Editing.
+D1_L15=[37235]Project Closed.
+
+[Opened Files]
+1=test.c
+2=sang_dan_8_LED.c
+3=bai_308_sdta_pst_tsp_32led.c
+4=
+[Units]
+Count=1
+1=sang_dan_8_LED (main)

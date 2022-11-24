@@ -1,0 +1,10 @@
+#include <tv_kit_vdk_18f6722_all.c> 
+
+void main()
+{ 
+   set_up_port();
+   while(true)
+   { 
+      
+   } 
+}

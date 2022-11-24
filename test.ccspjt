@@ -1,0 +1,31 @@
+[PROJECT]
+Target=test.hex
+Processor_Text=PIC18F6722
+CCSVersion=5.025
+Compiler=PCH
+[Target Data]
+FileList=test.c
+[test.c]
+Type=4
+[mru-list]
+1=test.c
+[Units]
+Count=1
+1=test (main)
+
+[ProjectLog]
+Days=2
+D1=24-08-2022
+D1_L=3
+D1_L1=[35639]Started Editing.
+D1_L2=[35966]Stopped Editing.
+TotalEdit=1
+TotalDebug=0
+D1_E=1
+D1_D=0
+D1_L3=[36756]Project Closed.
+D2=31-08-2022
+D2_L=3
+D2_L1=[27000]Project Opened.
+D2_L2=[28044]Started Editing.
+D2_L3=[29431]Project Closed.

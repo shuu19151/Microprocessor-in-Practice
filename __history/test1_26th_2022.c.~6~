@@ -1,0 +1,36 @@
+#include <tv_kit_vdk_18f6722_all.c>
+
+
+void hienthi_mssv(){
+    usi8 mssv = 87;
+    giaima_bin_3so_vitri_vn(mssv,0,kx_vn);
+    xuat_8led_7doan();
+}
+
+//!void hienthi_led7d(){
+//!    led_7d[1] = ma7doan[bcd_8led[1]];//hien thi preset
+//!    led_7d[0] = ma7doan[bcd_8led[0]];
+//!    giaima_bin_2so_vitri_vn(cv,3,kx_vn); // hien thi current value
+//!    xuat_8led_7doan();
+//!}
+
+//!void caidat_preset(){
+//!    mp8 = key_tip229_cdoi_c2(10);
+//!    if((mp8>0)&&(mp8<10))
+//!    {
+//!        mp8 = mp8%16;
+//!        if((mp8<10)&&(tt_ena_dis != enable))
+//!        {
+//!            bcd_8led[1] = bcd_8led[0];
+//!            bcd_8led[0] = mp8;
+//!            delay_ms(200);
+//!        }
+//!    }
+//!}
+
+void main(){
+    set_up_port();
+    while(true){
+        hienthi_mssv();
+    }
+}

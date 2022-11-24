@@ -1,0 +1,41 @@
+[PROJECT]
+Target=bai_502_lcd_ht_2hang_dich_trai.hex
+Processor_Text=PIC18F6722
+CCSVersion=5.025
+Compiler=PCH
+[Target Data]
+FileList=bai_502_lcd_ht_2hang_dich_trai.c
+[bai_502_lcd_ht_2hang_dich_trai.c]
+Type=4
+[mru-list]
+1=bai_502_lcd_ht_2hang_dich_trai.c
+
+[ProjectLog]
+Days=2
+D1=02-11-2022
+D1_L=3
+D1_L1=[39606]Started Editing.
+D1_L2=[39906]Stopped Editing.
+TotalEdit=2
+TotalDebug=0
+D1_E=1
+D1_D=0
+D1_L3=[40859]Project Closed.
+D2=09-11-2022
+D2_L=4
+D2_L1=[28916]Project Opened.
+D2_L2=[29383]Started Editing.
+D2_L3=[29738]Stopped Editing.
+D2_E=1
+D2_D=0
+D2_L4=[30236]Project Closed.
+
+[Opened Files]
+1=bai_502_lcd_ht_2hang_dich_trai.c
+2=bai_503_lcd_hang0_dich_trai_phai_3btn.c
+3=bai_411_t0_dem_xung.c
+4=test1_24th_10_2022.c
+5=
+[Units]
+Count=1
+1=bai_502_lcd_ht_2hang_dich_trai (main)
