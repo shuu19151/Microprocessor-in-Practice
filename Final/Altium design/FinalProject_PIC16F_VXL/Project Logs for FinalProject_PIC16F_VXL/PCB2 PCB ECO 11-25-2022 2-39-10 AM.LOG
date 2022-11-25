@@ -1,0 +1,8 @@
+Added Component: Designator=C5(CN4 5MMP)
+Added Component: Designator=C6(CN4 5MMP)
+Added Pin To Net: NetName=XT1 Pin=C5-1
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=XT2 Pin=C6-2
+Added Member To Class: ClassName=Sheet1 Member=Component C5 22pF
+Added Member To Class: ClassName=Sheet1 Member=Component C6 22pF

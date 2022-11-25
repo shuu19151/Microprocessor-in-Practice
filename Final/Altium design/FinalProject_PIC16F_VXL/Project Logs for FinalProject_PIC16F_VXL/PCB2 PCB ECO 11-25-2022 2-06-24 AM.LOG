@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=GND Pin=R13-1
+Removed Pin From Net: NetName=+5 Pin=R13-2
+Removed Pin From Net: NetName=NetLCD2_3 Pin=R13-3
+Removed Member From Class: ClassName=Sheet1 Member=R13
+Added Component: Designator=R1(POT - cuc ao 10k)
+Added Pin To Net: NetName=GND Pin=R1-1
+Added Pin To Net: NetName=+5 Pin=R1-2
+Added Pin To Net: NetName=NetLCD2_3 Pin=R1-3
+Added Member To Class: ClassName=Sheet1 Member=Component R1 POT - cuc ao
+Added Room: Name=Sheet1

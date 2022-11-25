@@ -1,0 +1,24 @@
+Change Physical Footprint: Designator=B1 Old Footprint=Buzzer New Footprint=Buzzer
+Change Physical Footprint: Designator=BT1 Old Footprint=BUTTON New Footprint=BUTTON
+Change Physical Footprint: Designator=BT2 Old Footprint=BUTTON New Footprint=BUTTON
+Change Physical Footprint: Designator=BT3 Old Footprint=BUTTON New Footprint=BUTTON
+Change Physical Footprint: Designator=BT4 Old Footprint=BUTTON New Footprint=BUTTON
+Change Physical Footprint: Designator=C4 Old Footprint=CAP10UF25V New Footprint=CAP10UF25V
+Change Physical Footprint: Designator=C5 Old Footprint=CN4 5MMP New Footprint=CN4 5MMP
+Change Physical Footprint: Designator=C6 Old Footprint=CN4 5MMP New Footprint=CN4 5MMP
+Change Physical Footprint: Designator=C7 Old Footprint=CAP 100UF 16V New Footprint=CAP 100UF 16V
+Change Physical Footprint: Designator=IC2 Old Footprint=LM35 New Footprint=LM35
+Change Physical Footprint: Designator=JDC Old Footprint=DC-IN New Footprint=DC-IN
+Change Physical Footprint: Designator=L1 Old Footprint=Led__Blue_t/h_5mm New Footprint=Led__Blue_t/h_5mm
+Change Physical Footprint: Designator=LCD1 Old Footprint=LCD1602 New Footprint=LCD1602
+Change Physical Footprint: Designator=Q2 Old Footprint=2SC1815 New Footprint=2SC1815
+Change Physical Footprint: Designator=R1 Old Footprint=POT - cuc ao 10k New Footprint=POT - cuc ao 10k
+Change Physical Footprint: Designator=R8 Old Footprint=R025W_AX04 New Footprint=R025W_AX04
+Change Physical Footprint: Designator=R9 Old Footprint=R025W_AX04 New Footprint=R025W_AX04
+Change Physical Footprint: Designator=R10 Old Footprint=R025W_AX04 New Footprint=R025W_AX04
+Change Physical Footprint: Designator=R11 Old Footprint=R025W_AX04 New Footprint=R025W_AX04
+Change Physical Footprint: Designator=R12 Old Footprint=R025W_AX04 New Footprint=R025W_AX04
+Change Physical Footprint: Designator=R14 Old Footprint=R025W_AX04 New Footprint=R025W_AX04
+Change Physical Footprint: Designator=R15 Old Footprint=R025W_AX04 New Footprint=R025W_AX04
+Change Physical Footprint: Designator=U2 Old Footprint=PIC16F877A New Footprint=PIC16F877A
+Change Physical Footprint: Designator=XTAL1 Old Footprint=Crystal New Footprint=Crystal

@@ -15,3 +15,9 @@ Count=1
 
 [defines]
 buildcount=1
+
+[ProjectLog]
+Days=1
+D1=25-11-2022
+D1_L=1
+D1_L1=[9968]Project Closed.
