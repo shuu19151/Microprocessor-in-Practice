@@ -23,7 +23,7 @@ t1=1
 Count=1
 
 [ProjectLog]
-Days=2
+Days=3
 D1=23-11-2022
 D1_L=2
 D1_L1=[42255]Stopped Editing.
@@ -44,6 +44,10 @@ D2_L7=[58728]Project Opened.
 D2_L8=[58736]Project Closed.
 D2_L9=[58958]Project Opened.
 D2_L10=[69023]Project Closed.
+D3=26-11-2022
+D3_L=2
+D3_L1=[45842]Project Opened.
+D3_L2=[45843]Project Closed.
 
 [fileformats]
 forcecoff=0

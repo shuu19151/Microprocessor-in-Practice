@@ -1,14 +1,14 @@
 
-ROM used:   7404/131072 (6%)
-            7404/131072 (6%) including unused fragments
+ROM used:   7406/131072 (6%)
+            7406/131072 (6%) including unused fragments
 
             1.4 Average locations per line
             6.8 Average locations per statement
 
-RAM used:   60/3936 (2%) at main() level
-            140/3936 (4%) worst case
+RAM used:   62/3936 (2%) at main() level
+            142/3936 (4%) worst case
 
-Stack used: 4 worst case (4 in main + 0 for interrupts)
+Stack used: 0 worst case (0 in main + 0 for interrupts)
 Stack size: 31
 
 Lines Stmts  %   Files
@@ -16,10 +16,10 @@ Lines Stmts  %   Files
    55    38   3  bai_609_gp2d12_lcd_do_kcach.c
    24     0   0  tv_kit_vdk_18f6722_all.c
   133     0   0  tv_01_18f6722_define.c
-  912     0   0  ..\..\..\..\Program Files (x86)\PICC\Devices\18f6722.h
+  953     0   0  ..\..\..\..\Program Files (x86)\PICC\Devices\18f6722.h
   430   105  10  tv_02_18f6722_mbi.c
   385   148  14  tv_03_18f6722_key.c
- 2229   257  24  ..\..\..\..\Program Files (x86)\PICC\Drivers\math.h
+ 2228   258  24  ..\..\..\..\Program Files (x86)\PICC\Drivers\math.h
   154    63   6  tv_04_18f6722_8led_7doan.c
   422   199  18  tv_05_18f6722_lcd.c
   127    45   4  tv_05_i2c_ds13_pcf.c
@@ -31,7 +31,7 @@ Lines Stmts  %   Files
    40    38   3  tv_rotary_encoder.c
    30    18   2  tv_HX711.c
 ----- -----
- 5419  1090 Total
+ 5459  1091 Total
 
 Page ROM  %  RAM    Vol Diff  Functions:
 ---- --- --- ---    --- ----  ----------
@@ -42,7 +42,7 @@ Page ROM  %  RAM    Vol Diff  Functions:
 0     42   0    3    106  2.1  xuat_lcd
 0     44   0    3    106  2.1  xuat_glcd
 0     52   0    0    152  1.8  xuat_3led_matran
-0     56   0    2    162  4.4  xuat_8led_7doan
+0     62   0    2    162  4.4  xuat_8led_7doan
 0     32   0    4    104  2.0  xuat_32led_don_2word
 0     32   0    0    121  1.7  xoa_tat_ca_cac_module
 0    802   5   20   1121 10.1  CEIL_FLOOR
@@ -55,49 +55,49 @@ Page ROM  %  RAM    Vol Diff  Functions:
 0     26   0    4     44  1.9  ceil
 0    338   2   16    259  6.9  fmod
 0    346   2   14             @DIVFF
-0    978   7   22   1071  8.0  exp
+0    974   7   22   1071  8.0  exp
 0     72   0    2             @SITOF
-0    850   6   25    979 10.0  log
-0    730   5   12    556  7.5  pow
+0    842   6   25    979 10.0  log
+0    718   5   12    581  7.5  pow
 0     66   0    5             @DIV1616
-0     38   0    1    123  2.2  lcd_xuat_8bit
+0     34   0    1    123  2.2  lcd_xuat_8bit
 0     10   0    1     43  1.5  lcd_command
 0     10   0    1     43  1.5  lcd_data
 0     72   0    0    310  2.3  lcd_setup
-0     24   0    0             @const1020
+0     24   0    0             @const1109
 0     16   0    3    145  3.9  lcd_goto_xy
-0     84   1    0             @const1030
+0     84   1    0             @const1119
 0     34   0    2    131  3.5  lcd_khoi_tao_cgram_so_to
-0      2   0    0             @const1134
-0     40   0    3             @PSTRINGC_1013
-0    200   1    7    289  5.5  h601_adc_read
+0      2   0    0             @const1222
+0     40   0    3             @PSTRINGC_1101
+0    204   1    7    289  5.5  h601_adc_read
 0    234   2    4    130  2.7  float_to_ng_2so_tp
-0     10   0    0             @const1217
-0     22   0    0             @const1219
+0     10   0    0             @const1308
+0     22   0    0             @const1310
 0     46   0    0     90  1.5  h609_lcd_cbkc_gp2d12
-0     20   0    0     82  1.6  @const1234
-0     22   0    0    200  3.1  @const1235
+0     20   0    0             @const1325
+0     22   0    0             @const1326
 0    472   3   16    901  5.3  b609_adc_cbkc_gp2d12
-0      2   0    0    114  2.1  @const1243
-0    250   2    0    219  2.7  MAIN
+0      2   0    0             @const1334
+0    270   2    0    219  2.7  MAIN
  Inline         0             @cinit1
 
 Program metrics:
-    Functions               30
-    Statements              1090
-    Comments                1138
-    Volume (V)              15164
-    Difficulty (D)          105.4
-    Effort to implement (E) 1598399
-    Time to implement (T)   24 hours, 40 minutes
-    Est Delivered Bugs (B)  5
-    Cyclomatic Complexity   25
-    Maintainability (MI)    74
+    Functions               27
+    Statements              1091
+    Comments                1141
+    Volume (V)              14180
+    Difficulty (D)          98.0
+    Effort to implement (E) 1389022
+    Time to implement (T)   21 hours, 26 minutes
+    Est Delivered Bugs (B)  4
+    Cyclomatic Complexity   23
+    Maintainability (MI)    48
 
  Segment     Used  Free
 -----------  ----  ----
 00000-00002     4  0  
-00004-0FFFE  7400  58132  
+00004-0FFFE  7402  58130  
 10000-1FFFE     0  65536  
 
 

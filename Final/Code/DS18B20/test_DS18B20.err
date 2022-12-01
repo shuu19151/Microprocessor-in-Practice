@@ -1,0 +1,5 @@
+Compiling C:\Tri\HK 1 nam 4\TT micro\Project\Final\Code\DS18B20\test_DS18B20 on 01-Dec-22 at 15:27
+>>> Warning 240 "C:\Tri\HK 1 nam 4\TT micro\Project\Final\Code\DS18B20\test_DS18B20.h" Line 43(22,30): Pointer types do not match
+      Memory usage:   ROM=29%      RAM=6% - 46%
+      0 Errors,  1 Warnings.
+Build Successful.

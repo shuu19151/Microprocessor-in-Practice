@@ -1,0 +1,59 @@
+#include <final.h>
+
+void hienthi_thongtin(){
+    delay_ms(500);
+    lcd_gotoxy(1,1);
+    lcd_putc("LAM QUANG TRI");
+    delay_ms(500);
+    lcd_gotoxy(1,2);
+    lcd_putc("19151087");
+    delay_ms(500);
+    lcd_putc("\f");
+}
+void start(){
+    output_low(BUZ);
+    output_high(BUZ);
+    delay_ms(500);
+    output_low(BUZ);
+}
+
+void hienthi_lcd(usi8 x,y,int1 ht_ng,ht_tp){
+    if(lm35a_ngt!=lm35a_ng)
+    {
+        lm35a_ngt=lm35a_ng;
+        lcd_gotoxy(x,y+2);
+        lcd_putc(".");
+        if(ht_ng){
+            lcd_gotoxy(x,y);
+            lcd_putc(lm35a_ng/10 + 0x30);
+            lcd_putc(lm35a_ng%10 + 0x30);
+        }
+        if(ht_tp){
+            lcd_gotoxy(x,y+3);
+            lcd_putc(lm35a_tp/10 + 0x30);
+            lcd_putc(lm35a_tp%10 + 0x30);
+        }
+    }
+}
+
+void main(){
+    //start();
+    lcd_init();
+    hienthi_thongtin();
+    setup_adc(adc_clock_div_2);
+    setup_adc_ports(AN0);
+    while(true){
+//!        test nut nhan, buzzer
+//!        if(!Plus == 1){
+//!            output_high(BUZ);
+//!            delay_ms(500);
+//!        }
+//!        if(!Minus == 1){
+//!            output_low(BUZ); 
+//!            delay_ms(500);
+//!        }
+
+        doc_value_lm35(100);
+        delay_ms(200);
+    }
+}

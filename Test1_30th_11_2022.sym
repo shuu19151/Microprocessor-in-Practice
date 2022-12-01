@@ -1,0 +1,310 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004-005 rbdc
+004.0   step_motor_enable
+004.1   ms1
+004.2   ms2
+004.3   ms3
+004.4   step
+004.5   dir
+004.6   servo1
+004.7   step_motor_in1
+005.0   step_motor_in2
+005.1   step_motor_in3
+005.2   step_motor_in4
+005.3   triac_1
+005.4   triac_2
+005.5   buzzer
+005.6   relay_1
+005.7   relay_2
+006-00D wlmt
+00E-015 led_7d
+016     dl_tip
+017-018 dl_btn
+019-020 bcd_8led
+021.0   lcd_e
+021     lcd_ctrl
+021.1   lcd_rw
+021.2   lcd_rs
+021.3   lcd_p
+022-023 @sprintf_string
+024-02C time_w
+02D-035 time_r
+036.0   ttqn
+037-038 so_ng
+039-03A so_tp
+03B     rti
+03C     vt_tr
+03D     vt_ht
+03E-03F t
+040-041 dis
+042-045 @SPI_XFER_1_32.P1
+042     lcd_khoi_tao_cgram_so_to.i
+042     b609_adc_cbkc_gp2d12.sl
+042     xuat_glcd.ctrl
+042-045 xuat_32led_don_1dw.dwld
+042-045 atan2.y
+042     xuat_32led_don_4byte.bld3
+042     sosanh_.@SCRATCH1
+042     up_dw.@SCRATCH1
+043     @delay_ms1.P1
+043     b609_adc_cbkc_gp2d12.ht_tp
+043     xuat_32led_don_4byte.bld2
+043     xuat_glcd.db
+043     lcd_khoi_tao_cgram_so_to.@SCRATCH1
+044-047 b609_adc_cbkc_gp2d12.kc
+044     xuat_32led_don_4byte.bld1
+044     xuat_glcd.@SCRATCH1
+045     xuat_32led_don_4byte.bld0
+046-047 xuat_32led_don_1dw.wd1
+046-049 atan2.x
+048-049 xuat_32led_don_1dw.wd0
+048-049 b609_adc_cbkc_gp2d12.kc_ng
+04A-04D atan2.z
+04A-04B b609_adc_cbkc_gp2d12.kc_tp
+04A-04B xuat_32led_don_2word.wld1
+04A     xuat_32led_don_1dw.@SCRATCH1
+04C-04D b609_adc_cbkc_gp2d12.kc_t
+04C-04D xuat_32led_don_2word.wld0
+04E     h601_adc_read.solan
+04E-04F xuat_1word.x
+04E-04F @DIV1616.P1
+04E     lcd_goto_xy.x
+04E     xuat_8led_7doan.i
+04E.0   atan2.sign
+04E-051 float_to_ng_2so_tp.st
+04E     @PSTRINGC_1101.@SCRATCH1
+04E     b609_adc_cbkc_gp2d12.@SCRATCH1
+04F     atan2.quad
+04F     h601_adc_read.chan
+04F     lcd_goto_xy.y
+04F     xuat_8led_7doan.@SCRATCH1
+04F     @PSTRINGC_1101.@SCRATCH2
+04F     b609_adc_cbkc_gp2d12.@SCRATCH2
+050-051 @DIV1616.P1
+050-053 h601_adc_read.kq_adc
+050     xuat_1word.@SCRATCH1
+050     lcd_goto_xy.@SCRATCH1
+050     @PSTRINGC_1101.@SCRATCH3
+050     b609_adc_cbkc_gp2d12.@SCRATCH3
+051     lcd_command.db
+051     lcd_data.db
+051     xuat_1word.@SCRATCH2
+051     b609_adc_cbkc_gp2d12.@SCRATCH4
+052-055 pow.x
+052     lcd_xuat_8bit.db
+052     @DIV1616.@SCRATCH1
+053     xuat_lcd.ctrl
+054     h601_adc_read.i
+054     xuat_lcd.db
+055     xuat_lcd.@SCRATCH1
+056-059 pow.y
+05A-05D fmod.x
+05A     pow.@SCRATCH1
+05B     pow.@SCRATCH2
+05C     pow.@SCRATCH3
+05D     pow.@SCRATCH4
+05E-061 log.x
+05E-061 exp.x
+05E-061 fmod.y
+062-065 log.y
+062-065 fmod.i
+062-065 exp.y
+066-069 log.res
+066-069 exp.res
+066     fmod.@SCRATCH1
+067     fmod.@SCRATCH2
+068     fmod.@SCRATCH3
+069     fmod.@SCRATCH4
+06A-06D ceil.x
+06A-06D exp.r
+06A-06D log.r
+06A-06D floor.x
+06E-071 CEIL_FLOOR.x
+06E     exp.n
+06E-071 log.y2
+06F.0   exp.s
+070     exp.@SCRATCH1
+071     exp.@SCRATCH2
+072     CEIL_FLOOR.n
+072     log.n
+072     exp.@SCRATCH3
+073-076 CEIL_FLOOR.y
+073     exp.@SCRATCH4
+073     log.@SCRATCH1
+074-075 @SITOF.P1
+074     log.@SCRATCH2
+075     log.@SCRATCH3
+076     log.@SCRATCH4
+077-07A @DIVFF.P1
+077-07A CEIL_FLOOR.res
+07B-07C CEIL_FLOOR.l
+07B-07E @DIVFF.P1
+07D.0   CEIL_FLOOR.s
+07E-081 @SFTOI.P1
+07E-081 @MULFF.P2
+07E-081 @FLT.P3
+07E     CEIL_FLOOR.@SCRATCH1
+07F     CEIL_FLOOR.@SCRATCH2
+07F     @DIVFF.@SCRATCH1
+080     CEIL_FLOOR.@SCRATCH3
+080     @DIVFF.@SCRATCH2
+081     CEIL_FLOOR.@SCRATCH4
+081     @DIVFF.@SCRATCH3
+082-085 @MULFF.P1
+082-085 @FLT.P2
+082-083 @ITOF.P3
+082-085 @ADDFF.P4
+082     @DIVFF.@SCRATCH4
+083     @DIVFF.@SCRATCH5
+084     @DIVFF.@SCRATCH6
+086-089 @ADDFF.P1
+086     @FLT.@SCRATCH1
+086     @MULFF.@SCRATCH1
+087     @FLT.@SCRATCH2
+087     @MULFF.@SCRATCH2
+088     @MULFF.@SCRATCH3
+08A     @ADDFF.@SCRATCH1
+08B     @ADDFF.@SCRATCH2
+08C     @ADDFF.@SCRATCH3
+08D     @ADDFF.@SCRATCH4
+08E     @ADDFF.@SCRATCH5
+08F     @ADDFF.@SCRATCH6
+090     @ADDFF.@SCRATCH7
+091     @ADDFF.@SCRATCH8
+F71     CCP_5
+F71     CCP_5_LOW
+F72     CCP_5_HIGH
+F74     CCP_4_LOW
+F74     CCP_4
+F75     CCP_4_HIGH
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FB8     CCP_3_LOW
+FB8     CCP_3
+FB9     CCP_3_HIGH
+FBB     CCP_2_LOW
+FBB     CCP_2
+FBC     CCP_2_HIGH
+FBE     CCP_1
+FBE     CCP_1_LOW
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P1
+FE9-FEA @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PACKED_MEMORY.P3
+FE9-FEA @READ_PROGRAM_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000004  lcd_vitri.call
+000018  lcd_vitri.data
+00001C  lcd_ma_8doan.call
+000030  lcd_ma_8doan.data
+000070  @const1222.call
+000072  @const1308.call
+00007C  @const1310.call
+000092  @const1327.call
+0000A2  @const1335.call
+0000A4  @const1336.call
+0000A8  xuat_1word
+0000C4  xuat_rbdc
+0000D8  xuat_glcd
+000104  xuat_lcd
+00012E  xuat_3led_matran
+000162  xuat_8led_7doan
+0001A0  xuat_32led_don_2word
+0001BE  xoa_tat_ca_cac_module
+0001DE  set_up_port
+00025A  lcd_xuat_8bit
+00027C  lcd_command
+000286  @delay_ms1
+0002AC  lcd_setup
+0002F4  lcd_data
+0002FE  lcd_khoi_tao_cgram_so_to
+000320  lcd_goto_xy
+000330  @PSTRINGC_1101
+000358  h609_lcd_cbkc_gp2d12
+000370  @ITOF
+0003A6  @ADDFF
+000610  @DIVFF
+00076A  h601_adc_read
+000836  @FLT
+0008AC  @SFTOI
+0008E4  @MULFF
+0009D6  CEIL_FLOOR
+000CF8  ceil
+000D12  floor
+000D2A  fmod
+000E7C  @SITOF
+000EC4  log
+00120E  exp
+0015DC  pow
+0018AA  float_to_ng_2so_tp
+001994  @DIV1616
+0019D6  b609_adc_cbkc_gp2d12
+001C40  up_dw
+001CAA  xuat_32led_don_1dw
+001CD0  buzzer_on
+001CD8  buzzer_off
+001CE0  xuat_32led_don_4byte
+001D14  sosanh_
+001DB4  @cinit1
+001DB4  MAIN
+001E22  @cinit2
+
+Project Directory:
+    C:\Tri\HK 1 nam 4\TT micro\Project\
+
+Project Files:
+    Test1_30th_11_2022.c                                    [30-Nov-22 10:35  CRC=EE5800DC]
+    tv_kit_vdk_18f6722_all.c                                [21-Feb-21 21:13  CRC=5D4EC53A]
+    tv_01_18f6722_define.c                                  [21-Feb-21 16:52  CRC=DDFEFEAB]
+    ..\..\..\..\Program Files (x86)\PICC\Devices\18f6722.h  [06-May-22 15:58  CRC=BC5DFD96]
+    tv_02_18f6722_mbi.c                                     [19-Feb-21 08:11  CRC=CB47246C]
+    tv_03_18f6722_key.c                                     [19-Feb-21 08:51  CRC=9F3F53C3]
+    ..\..\..\..\Program Files (x86)\PICC\Drivers\math.h     [05-May-20 13:57  CRC=02232397]
+    tv_04_18f6722_8led_7doan.c                              [19-Feb-21 09:12  CRC=ADC592F4]
+    tv_05_18f6722_lcd.c                                     [20-Feb-21 09:55  CRC=8C8B9106]
+    tv_05_i2c_ds13_pcf.c                                    [16-Feb-21 15:32  CRC=40082E6B]
+    tv_06_18f6722_adc.c                                     [18-Jan-21 20:14  CRC=315B9BE6]
+    tv_09_i2c_at24cxx.c                                     [07-Feb-21 14:31  CRC=63419B07]
+    tv_ds18b20.c                                            [16-Nov-20 15:09  CRC=468E92AC]
+    ..\..\..\..\Program Files (x86)\PICC\Drivers\touch.c    [02-Mar-10 15:04  CRC=24D0ECE7]
+    tv_dht11.c                                              [19-Feb-21 19:56  CRC=B4A79F17]
+    tv_rotary_encoder.c                                     [21-Dec-20 11:19  CRC=C166F832]
+    tv_HX711.c                                              [01-Jan-21 20:09  CRC=2B32E769]
+
+Source signature=9977CD1D
+Program memory checksum=0000
+Hex file CRC=8E87
+
+Units:
+    C:\Tri\HK 1 nam 4\TT micro\Project\Test1_30th_11_2022 (main)
+
+Compiler Settings:
+    Processor:      PIC18F6722
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:   CCS5
+
+Output Files:
+    XREF file:   Test1_30th_11_2022.xsym
+    Errors:      Test1_30th_11_2022.err
+    Ext Symbols: Test1_30th_11_2022.esym
+    INHX32:      Test1_30th_11_2022.hex
+    Symbols:     Test1_30th_11_2022.sym
+    List:        Test1_30th_11_2022.lst
+    Debug/COFF:  Test1_30th_11_2022.cof
+    Project:     Test1_30th_11_2022.ccspjt
+    Call Tree:   Test1_30th_11_2022.tre
+    Statistics:  Test1_30th_11_2022.STA

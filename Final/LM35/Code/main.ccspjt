@@ -17,7 +17,18 @@ Count=1
 buildcount=1
 
 [ProjectLog]
-Days=1
+Days=2
 D1=25-11-2022
 D1_L=1
 D1_L1=[9968]Project Closed.
+D2=26-11-2022
+D2_L=6
+D2_L1=[45841]Project Opened.
+D2_L2=[45842]Project Closed.
+D2_L3=[45843]Project Opened.
+D2_L4=[49055]Started Editing.
+D2_L5=[49507]Stopped Editing.
+D2_L6=[50407]Project Closed.
+
+[fileformats]
+forcecoff=0

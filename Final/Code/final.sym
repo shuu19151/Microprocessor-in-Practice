@@ -1,0 +1,209 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004-005 @WRITE_PROGRAM_MEMORY8.P2
+008     PSP_DATA
+015     CCP_1
+015     CCP_1_LOW
+016     CCP_1_HIGH
+01B     CCP_2
+01B     CCP_2_LOW
+01C     CCP_2_HIGH
+020-021 strtok.save
+022-023 so_ng
+024-025 so_tp
+026-027 lm35a_ng
+028-029 lm35a_tp
+02A-02B lm35a_ngt
+02C-02D lm35
+02E     gtmin
+02F     gtmax
+030.0   alarm
+031     @TRIS_C
+032-033 @sprintf_string
+034     lcd_init.i
+034-037 doc_value_lm35.lm35a
+034-037 atan2.y
+034     @PSTRINGCN7_860.P1
+034-06B hienthi_thongtin.Tri
+034     @PRINTF_D_860.P1
+034     hienthi_lcd.ht_ng
+034     hienthi_gioihan.@SCRATCH1
+034     ktra_up.@SCRATCH1
+034     ktra_dw.@SCRATCH1
+034     ktra_ok.@SCRATCH1
+034     start.@SCRATCH1
+035     @PRINTF_D_860.P1
+035     hienthi_lcd.ht_tp
+035     lcd_init.@SCRATCH1
+035     @PSTRINGCN7_860.@SCRATCH1
+036-037 @DIV1616.P1
+036     xuly_alarm.@SCRATCH1
+036     hienthi_lcd.@SCRATCH1
+036     @PSTRINGCN7_860.@SCRATCH2
+036     @PRINTF_D_860.@SCRATCH1
+037     hienthi_lcd.@SCRATCH2
+037     @PSTRINGCN7_860.@SCRATCH3
+037     @PRINTF_D_860.@SCRATCH2
+038-03B atan2.x
+038-03B float_to_ng_2so_tp.st
+038-039 @DIV1616.P1
+038-03B main_adc_read.kq_adc
+038     @PSTRINGCN7_860.@SCRATCH4
+038     @PRINTF_D_860.@SCRATCH3
+039     @PRINTF_D_860.@SCRATCH4
+03A     @DIV88.P1
+03A     @DIV1616.@SCRATCH1
+03B     @DIV88.P1
+03C-03F @SFTOI.P1
+03C     main_adc_read.i
+03C-03F atan2.z
+03C-03F @MULFF.P1
+03C     @DIV88.@SCRATCH1
+03D-040 @DIVFF.P1
+03D-040 @ADDFF.P2
+03D-03E @ITOF.P3
+040-043 @MULFF.P1
+040.0   atan2.sign
+041-044 @DIVFF.P1
+041-044 @ADDFF.P2
+041     atan2.quad
+044     @MULFF.@SCRATCH1
+045     @MULFF.@SCRATCH2
+045     @ADDFF.@SCRATCH1
+045     @DIVFF.@SCRATCH1
+046     @MULFF.@SCRATCH3
+046     @ADDFF.@SCRATCH2
+046     @DIVFF.@SCRATCH2
+047     @MULFF.@SCRATCH4
+047     @ADDFF.@SCRATCH3
+047     @DIVFF.@SCRATCH3
+048     @MULFF.@SCRATCH5
+048     @ADDFF.@SCRATCH4
+048     @DIVFF.@SCRATCH4
+049     @ADDFF.@SCRATCH5
+049     @DIVFF.@SCRATCH5
+04A     @ADDFF.@SCRATCH6
+04A     @DIVFF.@SCRATCH6
+04B     @ADDFF.@SCRATCH7
+04C     @ADDFF.@SCRATCH8
+06C     hienthi_thongtin.i
+06D     hienthi_thongtin.j
+06E     hienthi_thongtin.@SCRATCH1
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+09C.6   C1OUT
+09C.7   C2OUT
+0A0-0D8 hienthi_thongtin.An
+0DB-0DC strlen.s
+0DB     @PSTRINGC7_860.@SCRATCH1
+0DC     @PSTRINGC7_860.@SCRATCH2
+0DD-0DE strlen.sc
+0DD     @PSTRINGC7_860.@SCRATCH3
+0DE     lcd_putc.c
+0DE     @PSTRINGC7_860.@SCRATCH4
+0DF     lcd_gotoxy.x
+0DF     @delay_ms2.P1
+0DF     strlen.@SCRATCH1
+0E0     lcd_gotoxy.y
+0E1     lcd_gotoxy.address
+0E2     lcd_gotoxy.@SCRATCH1
+0E3     lcd_send_byte.address
+0E4     lcd_send_byte.n
+0E5     lcd_read_byte.low
+0E5     lcd_send_byte.@SCRATCH1
+0E6     lcd_read_byte.high
+0E6     lcd_send_nibble.n
+0E7     lcd_read_nibble.n
+0E7     lcd_read_byte.@SCRATCH1
+0E8     lcd_read_nibble.@SCRATCH1
+10D-10E @READ_PROGRAM_MEMORY8.P1
+10D-10E @WRITE_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+000004  LCD_INIT_STRING.call
+000008  LCD_INIT_STRING.data
+00000C  @const987.call
+000010  @const992.call
+000011  @const1003.call
+000012  @const1005.call
+000016  @const1014.call
+00001A  @const1015.call
+00001C  @const1016.call
+00001E  @const1025.call
+00001F  @delay_ms2
+000033  start
+000051  lcd_send_nibble
+000089  lcd_read_nibble
+0000BC  lcd_send_byte
+0000BF  lcd_read_byte
+000119  lcd_init
+00015D  lcd_gotoxy
+000182  lcd_putc
+0001B2  @PSTRINGC7_860
+000226  hienthi_thongtin
+0002CF  strlen
+000353  @ITOF
+000370  @ADDFF
+0004B1  @DIVFF
+00057B  @SFTOI
+00059A  doc_value_lm35
+00059A  main_adc_read
+00062E  float_to_ng_2so_tp
+000676  @MULFF
+000718  @DIV1616
+00073D  hienthi_lcd
+0007CC  xuly_alarm
+000800  @PSTRINGCN7_860
+00085F  @DIV88
+000874  @PRINTF_D_860
+0008DB  hienthi_gioihan
+000935  ktra_nutnhan
+000935  ktra_up
+00095A  ktra_dw
+00097F  ktra_ok
+0009A4  MAIN
+0009A4  @cinit1
+0009B9  @cinit2
+
+Project Directory:
+    C:\Tri\HK 1 nam 4\TT micro\Project\Final\Code\
+
+Project Files:
+    final.c                                                 [29-Nov-22 13:10  CRC=FE2EABFC]
+    final.h                                                 [29-Nov-22 13:06  CRC=02F17BE2]
+    ..\..\..\..\..\..\Program Files (x86)\PICC\Devices\16F877A.h [06-May-22 15:52  CRC=4E256CC5]
+    lcd.h                                                   [13-Oct-17 09:02  CRC=6EA95293]
+    ..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\math.h [05-May-20 13:57  CRC=02232397]
+    ..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\string.h [06-Apr-20 08:43  CRC=B1605627]
+    ..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\stddef.h [30-Jan-19 12:26  CRC=897CEC6C]
+    ..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\ctype.h [03-Jan-08 15:55  CRC=2D1F019F]
+
+Source signature=552D509E
+Program memory checksum=0000
+Hex file CRC=DCDC
+
+Units:
+    C:\Tri\HK 1 nam 4\TT micro\Project\Final\Code\final (main)
+
+Compiler Settings:
+    Processor:      PIC16F877A
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:   CCS5
+
+Output Files:
+    XREF file:   final.xsym
+    Errors:      final.err
+    Ext Symbols: final.esym
+    INHX8:       final.hex
+    Symbols:     final.sym
+    List:        final.lst
+    Debug/COFF:  final.cof
+    Project:     final.ccspjt
+    Call Tree:   final.tre
+    Statistics:  final.STA

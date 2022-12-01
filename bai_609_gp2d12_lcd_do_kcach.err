@@ -1,3 +1,8 @@
+Compiling C:\Tri\HK 1 nam 4\TT micro\Project\bai_609_gp2d12_lcd_do_kcach on 30-Nov-22 at 08:32
+*** Error 24 "C:\Program Files (x86)\PICC\Devices\18f6722.h" Line 11(9,19): Unknown device type    -- Try PCH
+      1 Errors,  0 Warnings.
+Build Failed.
+Compiling C:\Tri\HK 1 nam 4\TT micro\Project\bai_609_gp2d12_lcd_do_kcach on 30-Nov-22 at 08:32
 >>> Warning 230 "C:\Tri\HK 1 nam 4\TT micro\Project\tv_05_18f6722_lcd.c" Line 243(1,1): String truncated
 >>> Warning 230 "C:\Tri\HK 1 nam 4\TT micro\Project\tv_05_18f6722_lcd.c" Line 262(1,1): String truncated
 >>> Warning 230 "C:\Tri\HK 1 nam 4\TT micro\Project\tv_05_18f6722_lcd.c" Line 263(1,1): String truncated

@@ -201,7 +201,7 @@ else if(y==3)
 else if(y==4)
    address=lcd_line_four;   
 
-address+=x-1;               // Ghep dia chi cot vao dia chi tong quat (address). address = address + (x-1).      
+address+=x-1;   22            // Ghep dia chi cot vao dia chi tong quat (address). address = address + (x-1).      
                         // Ta qui uoc: Goc tren ben trai co toa do la 1,1 -> Cot dau tien la Cot 1
                         // (x-1) vi C.LCD qui uoc cot dau tien co dia chi la 0.
 lcd_send_byte(0,0x80|address);   // Goi ham truyen thong tin (lenh) sang C.LCD.

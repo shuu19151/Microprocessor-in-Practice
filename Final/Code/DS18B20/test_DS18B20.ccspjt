@@ -1,0 +1,28 @@
+[PROJECT]
+Target=test_DS18B20.hex
+Processor_Text=PIC16F877A
+CCSVersion=5.109
+Compiler=PCM
+[Target Data]
+FileList=test_DS18B20.c
+[test_DS18B20.c]
+Type=4
+[mru-list]
+1=test_DS18B20.c
+[Units]
+Count=1
+1=test_DS18B20 (main)
+
+[defines]
+buildcount=1
+
+[ProjectLog]
+Days=1
+D1=01-12-2022
+D1_L=2
+D1_L1=[55979]Stopped Editing.
+TotalEdit=1
+TotalDebug=0
+D1_E=1
+D1_D=0
+D1_L2=[56028]Project Closed.

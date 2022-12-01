@@ -1,0 +1,38 @@
+#include <final.h>
+
+void hienthi_thongtin(){
+    delay_ms(500);
+    lcd_gotoxy(1,1);
+    lcd_putc("LAM QUANG TRI");
+    delay_ms(500);
+    lcd_gotoxy(1,2);
+    lcd_putc("19151087");
+    delay_ms(500);
+    lcd_putc("\f");
+}
+void start(){
+    output_low(BUZ);
+    output_high(BUZ);
+    delay_ms(500);
+    output_low(BUZ);
+}
+void main(){
+    start();
+    lcd_init();
+    hienthi_thongtin();
+//!    setup_adc(ADC_CLOCK_INTERNAL);
+//!    setup_adc_ports(AN0_AN1_AN2_AN3_AN4);
+    while(true){
+        if(!Plus == co_nhan){
+            output_toggle(BUZ); 
+            delay_ms(500);
+        }
+        if(!Minus == co_nhan){
+            output_toggle(BUZ); 
+            delay_ms(500);
+        }
+
+//!        doc_value_lm35(100);
+//!        delay_ms(200);
+    }
+}

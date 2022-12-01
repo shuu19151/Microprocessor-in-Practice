@@ -1,0 +1,52 @@
+#include <final.h>
+
+void hienthi_thongtin(void){
+    char Tri[] = {"                LAM QUANG TRI-19151087                "};
+    char An[] = {"                NGUYEN DINH AN-19151068                 "};
+    signed char i,j;
+    
+    for (j = 1; j <= strlen(Tri) - 16; j++)
+    {
+        for(i = 1; i <= 16; i++)
+        {
+            lcd_gotoxy(i,1);
+            printf(lcd_putc,"%c",Tri[i + j - 1]);
+            lcd_gotoxy(i,2);
+            printf(lcd_putc,"%c",An[i + j - 1]);
+        }
+        delay_ms(500);
+    }
+    delay_ms(1000);
+}
+
+void start(){
+    output_low(BUZ);
+    output_high(BUZ);
+    delay_ms(500);
+    output_low(BUZ);
+}
+
+void main(){
+    start();
+    lcd_init();
+    lcd_putc("\f");
+    hienthi_thongtin();
+    setup_adc(adc_clock_div_2);
+    setup_adc_ports(AN0);
+    while(true){
+        doc_value_lm35(100);
+        delay_ms(200);
+        hienthi_lcd(1, 1);
+        delay_ms(200);
+    }
+}
+
+//!        test nut nhan, buzzer
+//!        if(!Plus == 1){
+//!            output_high(BUZ);
+//!            delay_ms(500);
+//!        }
+//!        if(!Minus == 1){
+//!            output_low(BUZ); 
+//!            delay_ms(500);
+//!        }

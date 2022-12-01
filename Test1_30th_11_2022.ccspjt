@@ -1,0 +1,63 @@
+[PROJECT]
+Target=Test1_30th_11_2022.hex
+Processor_Text=PIC18F6722
+CCSVersion=5.109
+Compiler=PCH
+[Target Data]
+FileList=Test1_30th_11_2022.c
+[Test1_30th_11_2022.c]
+Type=4
+[mru-list]
+1=Test1_30th_11_2022.c
+
+[defines]
+buildcount=11
+
+[ProjectLog]
+Days=2
+D1=30-11-2022
+D1_L=13
+D1_L1=[32410]Started Editing.
+D1_L2=[32711]Stopped Editing.
+D1_L3=[32929]Started Editing.
+D1_L4=[33277]Stopped Editing.
+D1_L5=[35406]Started Editing.
+D1_L6=[35911]Stopped Editing.
+D1_L7=[36022]Started Editing.
+D1_L8=[36353]Stopped Editing.
+D1_L9=[37407]Started Editing.
+D1_L10=[37707]Stopped Editing.
+D1_L11=[37910]Started Editing.
+D1_L12=[38442]Stopped Editing.
+TotalEdit=9
+TotalDebug=0
+D1_E=9
+D1_D=0
+D1_L13=[39479]Project Closed.
+D2=01-12-2022
+D2_L=6
+D2_L1=[47900]Project Opened.
+D2_L2=[47901]Project Closed.
+D2_L3=[47902]Project Opened.
+D2_L4=[52842]Started Editing.
+D2_L5=[53142]Stopped Editing.
+D2_L6=[55660]Project Closed.
+
+[Opened Files]
+1=Final\Code\DS18B20\test_DS18B20.c
+t1=1
+2=Final\Code\DS18B20\test_DS18B20.h
+t2=65
+3=Test1_30th_11_2022.c
+t3=65
+4=tv_kit_vdk_18f6722_all.c
+t4=1
+5=tv_02_18f6722_mbi.c
+t5=203
+Count=5
+[Units]
+Count=1
+1=Test1_30th_11_2022 (main)
+
+[fileformats]
+forcecoff=0

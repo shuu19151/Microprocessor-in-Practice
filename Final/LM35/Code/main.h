@@ -9,8 +9,8 @@
 #use delay(crystal=20000000)
 #include <lcd.h>
 
-#define OK 		input(PIN_C2)
-#define Plus 	input(PIN_C0)
-#define Minus 	input(PIN_C1)
+#define OK       input(PIN_C2)
+#define Plus    input(PIN_C0)
+#define Minus    input(PIN_C1)
 
 #define BZ PIN_C3
