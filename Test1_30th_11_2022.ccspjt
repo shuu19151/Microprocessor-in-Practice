@@ -14,7 +14,7 @@ Type=4
 buildcount=11
 
 [ProjectLog]
-Days=2
+Days=3
 D1=30-11-2022
 D1_L=13
 D1_L1=[32410]Started Editing.
@@ -42,6 +42,10 @@ D2_L3=[47902]Project Opened.
 D2_L4=[52842]Started Editing.
 D2_L5=[53142]Stopped Editing.
 D2_L6=[55660]Project Closed.
+D3=06-12-2022
+D3_L=2
+D3_L1=[83543]Project Opened.
+D3_L2=[83563]Project Closed.
 
 [Opened Files]
 1=Final\Code\DS18B20\test_DS18B20.c

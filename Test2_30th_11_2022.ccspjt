@@ -1,0 +1,23 @@
+[PROJECT]
+Target=Test2_30th_11_2022.hex
+Processor_Text=PIC18F6722
+CCSVersion=5.109
+Compiler=PCH
+[Target Data]
+FileList=Test2_30th_11_2022.c
+[Test2_30th_11_2022.c]
+Type=4
+[mru-list]
+1=Test2_30th_11_2022.c
+[Units]
+Count=1
+1=Test2_30th_11_2022 (main)
+
+[defines]
+buildcount=1
+
+[ProjectLog]
+Days=1
+D1=07-12-2022
+D1_L=1
+D1_L1=[30795]Project Closed.

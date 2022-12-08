@@ -1,0 +1,113 @@
+
+ROM used:   7930/131072 (6%)
+            7930/131072 (6%) including unused fragments
+
+            1.4 Average locations per line
+            6.9 Average locations per statement
+
+RAM used:   66/3936 (2%) at main() level
+            146/3936 (4%) worst case
+
+Stack used: 5 worst case (5 in main + 0 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  129   101   9  LamQuangTriFinalTest.c
+   24     0   0  tv_kit_vdk_18f6722_all.c
+  133     0   0  tv_01_18f6722_define.c
+  953     0   0  ..\..\..\..\Program Files (x86)\PICC\Devices\18f6722.h
+  430   105   9  tv_02_18f6722_mbi.c
+  385   148  13  tv_03_18f6722_key.c
+ 2228   258  22  ..\..\..\..\Program Files (x86)\PICC\Drivers\math.h
+  154    63   5  tv_04_18f6722_8led_7doan.c
+  422   199  17  tv_05_18f6722_lcd.c
+  127    45   4  tv_05_i2c_ds13_pcf.c
+   55    23   2  tv_06_18f6722_adc.c
+   49    27   2  tv_09_i2c_at24cxx.c
+   80    40   3  tv_ds18b20.c
+  230    54   5  ..\..\..\..\Program Files (x86)\PICC\Drivers\touch.c
+   64    35   3  tv_dht11.c
+   40    38   3  tv_rotary_encoder.c
+   30    18   2  tv_HX711.c
+----- -----
+ 5533  1154 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     38   0    1             @delay_ms1
+0    124   1    0    629  2.4  set_up_port
+0     28   0    4     57  1.6  xuat_1word
+0     20   0    0     48  1.1  xuat_rbdc
+0     42   0    3    106  2.1  xuat_lcd
+0     44   0    3    106  2.1  xuat_glcd
+0     52   0    0    152  1.8  xuat_3led_matran
+0     62   0    2    162  4.4  xuat_8led_7doan
+0     32   0    4    104  2.0  xuat_32led_don_2word
+0     32   0    0    121  1.7  xoa_tat_ca_cac_module
+0     50   0    4    160  1.8  xuat_32led_don_4byte
+0     10   0    0     29  1.2  buzzer_on
+0      8   0    0     29  1.2  buzzer_off
+0    802   5   20   1121 10.1  CEIL_FLOOR
+0    118   1   10             @FLT
+0     56   0    4             @SFTOI
+0     54   0    2             @ITOF
+0    242   2   11             @MULFF
+0    618   4   16             @ADDFF
+0     24   0    4     43  2.1  floor
+0     26   0    4     44  1.9  ceil
+0    338   2   16    259  6.9  fmod
+0    346   2   14             @DIVFF
+0    974   6   22   1071  8.0  exp
+0     72   0    2             @SITOF
+0    842   5   25    979 10.0  log
+0    718   5   12    581  7.5  pow
+0     66   0    5             @DIV1616
+0     34   0    1    123  2.2  lcd_xuat_8bit
+0     10   0    1     43  1.5  lcd_command
+0     10   0    1     43  1.5  lcd_data
+0     72   0    0    310  2.3  lcd_setup
+0     24   0    0             @const1109
+0     16   0    3    145  3.9  lcd_goto_xy
+0     84   1    0             @const1119
+0     34   0    2    131  3.5  lcd_khoi_tao_cgram_so_to
+0      2   0    0             @const1222
+0     40   0    3             @PSTRINGC_1101
+0    204   1    7    289  5.5  h601_adc_read
+0    234   1    4    130  2.7  float_to_ng_2so_tp
+0     10   0    0             @const1308
+0     22   0    0             @const1310
+0     24   0    0     43  1.3  h609_lcd_cbkc_gp2d12
+0     16   0    0             @const1328
+0    618   4   16   1181  5.3  b609_adc_cbkc_gp2d12
+0      2   0    0             @const1336
+0      4   0    0    226  3.2  @const1337
+0     86   1    1    255  3.5  xuly_alarm
+0     12   0    0    318  3.6  @const1339
+0     12   0    0    253  2.7  @const1340
+0     58   0    0    193  3.6  sosanh_
+0    142   1    1    828  6.2  up_dw
+0    306   2    0    318  2.7  MAIN
+0     12   0    0    270  2.8  @const1346
+ Inline         0    509  4.7  @cinit1
+
+Program metrics:
+    Functions               38
+    Statements              1154
+    Comments                1141
+    Volume (V)              21358
+    Difficulty (D)          133.6
+    Effort to implement (E) 2853414
+    Time to implement (T)   44 hours, 2 minutes
+    Est Delivered Bugs (B)  7
+    Cyclomatic Complexity   42
+    Maintainability (MI)    123
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-0FFFE  7926  57606  
+10000-1FFFE     0  65536  
+
+
+

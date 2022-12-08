@@ -1,3 +1,0 @@
-Compiling C:\Tri\HK 1 nam 4\TT micro\Project\Final\LM35\Code\main on 26-Nov-22 at 13:39
->>> Warning 203 "C:\Tri\HK 1 nam 4\TT micro\Project\Final\LM35\Code\main.c" Line 24(1,1): Condition always TRUE
->>> Warning 208 "C:\Tri\HK 1 nam 4\TT micro\Project\Final\LM35\Code\main.c" Line 5(6,28): Function not void and does not return a value  Delay_va_kiem_tra_phim

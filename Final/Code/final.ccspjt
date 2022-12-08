@@ -26,10 +26,10 @@ t4=1
 t5=1
 6=..\..\..\..\..\HK 2 nam 3\Micro controller\Midterm Test\Midterm_test.c
 t6=1
-Count=2
+Count=1
 
 [ProjectLog]
-Days=4
+Days=5
 D1=26-11-2022
 D1_L=8
 D1_L1=[50935]Stopped Editing.
@@ -116,6 +116,12 @@ D4_L21=[45967]Stopped Editing.
 D4_L22=[47471]Project Closed.
 D4_L23=[81195]Project Opened.
 D4_L24=[81281]Project Closed.
+D5=06-12-2022
+D5_L=4
+D5_L1=[80008]Project Opened.
+D5_L2=[80014]Project Closed.
+D5_L3=[83506]Project Opened.
+D5_L4=[83522]Project Closed.
 
 [fileformats]
 forcecoff=0

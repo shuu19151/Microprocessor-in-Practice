@@ -1,0 +1,39 @@
+[PROJECT]
+Target=LamQuangTriFinalTest.hex
+Processor_Text=PIC18F6722
+CCSVersion=5.109
+Compiler=PCH
+[Target Data]
+FileList=LamQuangTriFinalTest.c
+[LamQuangTriFinalTest.c]
+Type=4
+[mru-list]
+1=LamQuangTriFinalTest.c
+
+[defines]
+buildcount=11
+
+[ProjectLog]
+Days=1
+D1=07-12-2022
+D1_L=8
+D1_L1=[31151]Stopped Editing.
+D1_L2=[31447]Started Editing.
+D1_L3=[31832]Stopped Editing.
+D1_L4=[32207]Started Editing.
+D1_L5=[32591]Stopped Editing.
+D1_L6=[32613]Started Editing.
+D1_L7=[33320]Stopped Editing.
+TotalEdit=10
+TotalDebug=0
+D1_E=10
+D1_D=0
+D1_L8=[33565]Project Closed.
+
+[Opened Files]
+1=LamQuangTriFinalTest.c
+t1=1
+Count=1
+[Units]
+Count=1
+1=LamQuangTriFinalTest (main)
